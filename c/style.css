@@ -1,0 +1,39 @@
+<style>
+  :root {
+    --color-bg-default: #ffffff !important;
+    --color-text-default: #4B5673 !important;
+    --color-text-default-light: #4B5673 !important;
+    --color-text-gray: #959BA9 !important;
+    --collection-card-cover-size-large: 210px !important;
+  }
+  
+  .nav-link
+  {
+    font-size: 18px !important;
+  }
+  
+  .notion-collection-card__cover img {
+    position: relative !important;
+    height: auto !important;
+    width: 10% !important;
+    border-radius: 0  !important;
+    object-fit: contain !important;
+    object-position: initial !important;
+    padding-bottom: 0  !important;
+  }
+  .notion-collection-card__content {
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+    font-size: 0.5rem !important;
+    overflow: hidden;
+  }
+  .has-icon .notion-property__url
+  {
+    display: none !important;
+  }
+  
+  #notion-app > div > div.notion-cursor-listener > div > div:nth-child(1) > div.notion-topbar > div > div:nth-child(3) {
+      display: inline-flex !important;
+    }
+  
+  </style>
