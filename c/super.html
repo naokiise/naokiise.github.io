@@ -1,0 +1,44 @@
+
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'mdf8bmz',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<!-- Add your analytics script here -->
+<!-- I use Fathom, it’s a great alternative to Google Analytics with a minimal dashboard and a focus on privacy. Please consider using my referral link when creating an account: https://usefathom.com/ref/CSKBJR -->
+
+<!-- Favicon: Having a custom nav breaks the Favicon that you can upload in the Super settings. To change it, update the link here -->
+<link rel="icon" href="https://s3.amazonaws.com/super-notion/images/8a28f49c-9631-4450-89f2-b87a3a60099e.png">
+
+<!-- Meta Description: Having a custom nav breaks the site description that you can edit in the Super settings. To change it, update the text here -->
+<meta property="og:description" content="Cy, a minimal portfolio template built on Notion and powered by Super.">
+
+<!-- Share image: Having a custom nav breaks the site share image that you can edit in the Super settings. To change it, update the url and the alt description below -->
+<meta property="og:image" content="https://s3.amazonaws.com/super-notion/images/ca38c918-dbcb-4cdf-ae61-35a0f6415764.jpg">
+<meta property="og:image:alt" content="Screenshot of the Cy demo site">
+
+
+<!-- Add your own custom overrides here -->
+<link rel="stylesheet" href="https://naokiise.github.io/c/style.css">
+
+
+<!-- End of custom overrides -->
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="left">
+    <a class="nav-link" href="/">Create with AI</a>
+  </div>
+  <div class="right">
+  <!--
+    <a class="nav-link" href="/projects">Projects</a>
+    <a class="nav-link" href="/about">About</a>
+    <a class="nav-link" href="/writing">Writing</a>
+  -->
+  </div>
+</nav>
