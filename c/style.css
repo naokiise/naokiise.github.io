@@ -7,7 +7,7 @@ html {
 /* --- Change default colors --- */
 :root {
   --color-bg-default: #ffffff !important;
-  --color-text-default: #4B5673 !important;
+  --color-text-default: rgb(14, 106, 243) !important;
   --color-text-default-light: #4B5673 !important;
   --color-text-gray: #959BA9 !important;
   --collection-card-cover-size-large: 210px !important;
@@ -165,8 +165,10 @@ h3.notion-heading {
 }
 .nav-link {
   transition: all .3s ease-in-out;
+  /*
   justify-content: center;
   align-items: center;
+  */
   padding: 0 20px 0 0;
   display: flex;
   height: 100%;
