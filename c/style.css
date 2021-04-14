@@ -79,15 +79,18 @@ strong {
 h1.notion-heading, .notion-page__properties .notion-property__text {
   font-family: psfournier-std, serif !important;
   font-weight: 200 !important;
-  font-size: 1.875rem !important;
+  /*font-size: 1.875rem !important;*/
+  font-size: 1.4rem !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
   letter-spacing: -0.03em !important;
 }
+/*sp*/
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-    font-size: 2.55rem !important;
+    /*font-size: 2.55rem !important;*/
+    font-size: 2rem !important;
   }
 }
 /* H2 */
