@@ -29,7 +29,9 @@ html {
 }
 
 body {
-  font-family: reason-new, sans-serif !important;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 
   /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
@@ -77,8 +79,9 @@ strong {
 
 /* H1 */
 h1.notion-heading, .notion-page__properties .notion-property__text {
-  font-family: psfournier-std, serif !important;
-  font-weight: 200 !important;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   /*font-size: 1.875rem !important;*/
   font-size: 1.4rem !important;
 }
@@ -95,8 +98,9 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 }
 /* H2 */
 h2.notion-heading {
-  font-family: psfournier-std, serif !important;
-  font-weight: 200 !important;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   letter-spacing: -0.01em !important;
 }
 
@@ -540,7 +544,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin: 0.5em 0 1em !important;
 }
 .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
-  font-family: psfournier-std, serif !important;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-weight: 200 !important;
   font-size: 1.875rem !important;
   letter-spacing: -0.01em !important;
