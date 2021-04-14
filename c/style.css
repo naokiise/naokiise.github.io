@@ -6,7 +6,7 @@ html {
 
 /* --- Change default colors --- */
 :root {
-  --color-bg-default: #F9F6F0 !important;
+  --color-bg-default: #ffffff !important;
   --color-text-default: #4B5673 !important;
   --color-text-default-light: #4B5673 !important;
   --color-text-gray: #959BA9 !important;
@@ -371,6 +371,13 @@ h3.notion-heading {
 .notion-header__content.no-icon.has-cover .notion-header__title-wrapper {
   margin-top: 0 !important;
 }
+
+/* hide icons, urls */
+.has-icon .notion-property__url
+{
+  display: none !important;
+}
+
 article[id*="projects-"] .notion-page__property > .property-49775679 .notion-pill {
   font-weight: 700 !important;
   font-size: 0.75rem !important;
