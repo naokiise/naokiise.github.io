@@ -527,7 +527,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Resets font size of date */
 .notion-collection-list__item-property .notion-property__text .notion-semantic-string {
-  font-size: 1rem !important;
+  font-size: 2rem !important;
   line-height: 1.7 !important;
 }
 
