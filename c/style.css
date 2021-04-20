@@ -530,6 +530,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   /* i*/
   font-size: 2rem !important;
   line-height: 1.7 !important;
+  color:rgb(6, 122, 255);
 }
 
 /* Resets font size of date */
