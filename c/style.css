@@ -530,7 +530,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   /* i*/
   font-size: 3rem !important;
   font-weight: Medium;
-  line-height: 1.0 !important;
+  line-height: 0.7 !important;
   color:rgb(6, 122, 255);
 }
 
