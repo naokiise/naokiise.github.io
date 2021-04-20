@@ -214,6 +214,7 @@ h3.notion-heading {
   margin-top: 7px !important;
 }
 
+/* delete icons*/
 .notion-header__icon-wrapper {
   padding: 2px!important;
   bottom: 8px!important;
@@ -439,7 +440,7 @@ article[id*="projects-"] .notion-page__property > .property-49775679 .notion-pil
 
 /* Hide property name */
 .notion-page__property-name {
- display: none !important;
+ /*display: none !important;*/
 }
 
 /* Hide divider */
