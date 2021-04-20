@@ -388,7 +388,7 @@ h3.notion-heading {
 }
 
 /* hide icons, urls */
-.has-icon .notion-property__url
+.has-icon .notion-property__url .has-icon-image
 {
   display: none !important;
 }
