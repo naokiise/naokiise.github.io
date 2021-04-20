@@ -308,7 +308,7 @@ h3.notion-heading {
 
 /* Hides page title */
 .notion-property__title {
-  /*display: none !important;*/
+  display: none !important;
 }
 
 /* Display text property as a heading */
@@ -528,7 +528,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Resets font size of date */
 .notion-collection-list__item-property .notion-property__text .notion-semantic-string {
   /* i*/
-  font-size: 2rem !important;
+  font-size: 3rem !important;
   font-weight: Medium;
   line-height: 1.7 !important;
   color:rgb(6, 122, 255);
