@@ -7,7 +7,7 @@ html {
 /* --- Change default colors --- */
 :root {
   --color-bg-default: #ffffff !important;
-  --color-text-default: rgb(14, 106, 243) !important;
+  --color-text-default: rgb(128, 128, 128) !important;
   --color-text-default-light: #4B5673 !important;
   --color-text-gray: #959BA9 !important;
   --collection-card-cover-size-large: 210px !important;
@@ -84,6 +84,7 @@ h1.notion-heading, .notion-page__properties .notion-property__text {
   font-style: normal;
   /*font-size: 1.875rem !important;*/
   font-size: 1.4rem !important;
+  color: rgb(22, 22, 139);
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
