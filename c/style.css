@@ -8,7 +8,7 @@ html {
 :root {
   --color-bg-default: #ffffff !important;
   --color-text-default: rgb(128, 128, 128) !important;
-  --color-text-default-light: #4B5673 !important;
+  --color-text-default-light: #0030b4 !important;
   --color-text-gray: #959BA9 !important;
   --collection-card-cover-size-large: 210px !important;
 }
@@ -84,7 +84,7 @@ h1.notion-heading, .notion-page__properties .notion-property__text {
   font-style: normal;
   /*font-size: 1.875rem !important;*/
   font-size: 1.4rem !important;
-  color: rgb(22, 22, 139);
+  color: rgb(10, 83, 179);
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
@@ -103,12 +103,16 @@ h2.notion-heading {
   font-weight: 600;
   font-style: normal;
   letter-spacing: -0.01em !important;
+  color: rgb(10, 83, 179);
+
 }
 
 /* H3 */
 h3.notion-heading {
   font-weight: 500 !important;
   margin-bottom: 0.25em !important;
+  color: rgb(10, 83, 179);
+
 }
 
 /* Remove padding */
