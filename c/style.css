@@ -144,7 +144,7 @@ h3.notion-heading {
 /* Custom nav styling (see HTML at bottom of code) */
 .nav {
   align-items: flex-start;
-  padding: 25px;
+  padding: 25px 25px 100px 25px;
   display: flex;
   position: static;
   z-index: 9999;
