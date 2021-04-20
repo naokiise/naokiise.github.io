@@ -544,9 +544,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /*title revised*/
-span {
-  font-size:2rem;
-}
+
 
 /* Styles for title */
 .notion-collection-list__item-property .property-3b755650 {
