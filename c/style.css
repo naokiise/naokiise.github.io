@@ -217,6 +217,7 @@ h3.notion-heading {
 .notion-header__icon-wrapper {
   padding: 2px!important;
   bottom: 8px!important;
+  display: none !important;
 }
 
 /* --- Adjust quote styling so it can be used as a standfirst --- */
