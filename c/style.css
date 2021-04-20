@@ -542,6 +542,11 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-size: 0.875rem !important;
 }
 
+/*title revised*/
+span {
+  font-size:2rem;
+}
+
 /* Styles for title */
 .notion-collection-list__item-property .property-3b755650 {
   margin: 0.5em 0 1em !important;
