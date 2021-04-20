@@ -58,6 +58,7 @@ strong {
 }
 .notion-header__content>div {
   margin-bottom: 0px !important;
+  display: none !important;
 }
 .notion-header {
   margin-bottom: 0px !important;
