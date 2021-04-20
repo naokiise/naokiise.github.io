@@ -529,6 +529,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-collection-list__item-property .notion-property__text .notion-semantic-string {
   /* i*/
   font-size: 2rem !important;
+  font-weight: bold;
   line-height: 1.7 !important;
   color:rgb(6, 122, 255);
 }
