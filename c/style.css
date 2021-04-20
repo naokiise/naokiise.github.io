@@ -84,7 +84,7 @@ h1.notion-heading, .notion-page__properties .notion-property__text {
   font-style: normal;
   /*font-size: 1.875rem !important;*/
   font-size: 1.4rem !important;
-  color: var(--color-text-light) !important;
+  color: var(--color-text-default-light) !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
@@ -103,7 +103,7 @@ h2.notion-heading {
   font-weight: 600;
   font-style: normal;
   letter-spacing: -0.01em !important;
-  color:var(--color-text-light) !important;
+  color:var(--color-text-default-light) !important;
 
 }
 
@@ -111,7 +111,7 @@ h2.notion-heading {
 h3.notion-heading {
   font-weight: 500 !important;
   margin-bottom: 0.25em !important;
-  color:var(--color-text-light) !important;
+  color:var(--color-text-default-light) !important;
 
 }
 
@@ -308,7 +308,7 @@ h3.notion-heading {
 
 /* Hides page title */
 .notion-property__title {
-  display: none !important;
+  /*display: none !important;*/
 }
 
 /* Display text property as a heading */
@@ -527,6 +527,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Resets font size of date */
 .notion-collection-list__item-property .notion-property__text .notion-semantic-string {
+  /* i*/
   font-size: 2rem !important;
   line-height: 1.7 !important;
 }
@@ -548,7 +549,6 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-size: 0.875rem !important;
 }
 
-/*title revised*/
 
 
 /* Styles for title */
