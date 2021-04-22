@@ -582,10 +582,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* Styles for description */
-.notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 {
+.notion-collection-list__item-property .property-7173695c {
   margin: 0.5em 0 1em !important;
 }
-.notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string {
+.notion-collection-list__item-property .property-7173695c .notion-semantic-string {
   /*
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
@@ -599,7 +599,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 @media screen and (min-width: 32em) {
-  .notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string {
+  .notion-collection-list__item-property .property-7173695c .notion-semantic-string {
     font-size: 1.4rem !important;
     line-height: 1.15 !important;
   }
