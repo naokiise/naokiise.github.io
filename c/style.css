@@ -532,8 +532,8 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Resets font size of title */
 .notion-collection-list__item-property .notion-property__text .notion-semantic-string {
-  /* i*/
-  font-size: 3rem !important;
+  
+  font-size: 1rem !important;
   font-weight: Medium;
   line-height: 1.0 !important;
   color:rgb(6, 122, 255);
@@ -559,10 +559,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 
 /* Styles for title */
-.notion-collection-list__item-property .property-3b755650 {
+.notion-collection-list__item-property .property-47736b3f {
   margin: 0.5em 0 1em !important;
 }
-.notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
+.notion-collection-list__item-property .property-47736b3f .notion-semantic-string {
   /*
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
@@ -575,11 +575,40 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   transition: border-color .2s ease-in;
 }
 @media screen and (min-width: 32em) {
-  .notion-collection-list__item-property .property-3b755650 .notion-semantic-string {
+  .notion-collection-list__item-property .property-47736b3f .notion-semantic-string {
     font-size: 2.111rem !important;
     line-height: 1.15 !important;
   }
 }
+
+/* Styles for description */
+.notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 {
+  margin: 0.5em 0 1em !important;
+}
+.notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string {
+  /*
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-weight: 200 !important;*/
+  font-size: 1.875rem !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.25 !important;
+  border-bottom: 1px solid transparent !important;
+  transition: border-color .2s ease-in;
+}
+
+@media screen and (min-width: 32em) {
+  .notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string {
+    font-size: 2.111rem !important;
+    line-height: 1.15 !important;
+  }
+}
+
+
+
+
+
 
 /* Uses Notion’s file property to display featured image for article */
 .notion-collection-list__item-property .notion-property__file a > div, .notion-collection-list__item-property .notion-property__file img {
