@@ -45,6 +45,11 @@ strong {
     font-weight: 500 !important;
 }
 
+picture{
+  width:100px;
+
+}
+
 /* Styling for page names */
 .notion-header__title {
   font-weight: 700 !important;
@@ -75,6 +80,7 @@ strong {
   line-height: 1.7 !important;
   letter-spacing: -0.01em !important;
 }
+
 
 /* --- Heading styles --- */
 
@@ -520,7 +526,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Hides icon */
 .notion-property__title .notion-property__title__icon-wrapper {
-  display: none !important;
+  /*display: none !important; display title?*/
 }
 
 /* Hides page title */
