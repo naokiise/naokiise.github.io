@@ -45,10 +45,6 @@ strong {
     font-weight: 500 !important;
 }
 
-picture{
-  width:100px;
-
-}
 
 /* Styling for page names */
 .notion-header__title {
@@ -587,7 +583,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Uses Notion’s file property to display featured image for article */
 .notion-collection-list__item-property .notion-property__file a > div, .notion-collection-list__item-property .notion-property__file img {
-  width: 100% !important;
+  width: 10% !important;
   height: auto !important;
   max-height: none !important;
   margin-right: 0 !important;
