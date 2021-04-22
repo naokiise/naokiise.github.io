@@ -8,7 +8,7 @@ html {
 :root {
   --color-bg-default: #ffffff !important;
   --color-text-default: rgb(128, 128, 128) !important;
-  --color-text-default-light: rgb(6, 122, 255) !important;
+  --color-text-default-light: rgb(11, 102, 247) !important;
   --color-text-gray: #959BA9 !important;
   --collection-card-cover-size-large: 210px !important;
 }
@@ -87,7 +87,7 @@ h1.notion-heading, .notion-page__properties .notion-property__text {
   font-style: normal;
   /*font-size: 1.875rem !important;*/
   font-size: 1.0rem !important;
-  color: rgb(6, 122, 255) !important;
+  color: rgb(11, 102, 247) !important;
 }
 h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
   line-height: 1.27 !important;
@@ -106,7 +106,7 @@ h2.notion-heading {
   font-weight: 600;
   font-style: normal;
   letter-spacing: -0.01em !important;
-  color: rgb(6, 122, 255) !important;
+  color: rgb(11, 102, 247) !important;
 
 }
 
@@ -114,7 +114,7 @@ h2.notion-heading {
 h3.notion-heading {
   font-weight: 500 !important;
   margin-bottom: 0.25em !important;
-  color: rgb(6, 122, 255)  !important;
+  color: rgb(11, 102, 247)  !important;
 
 }
 
@@ -591,7 +591,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-weight: 600;
   font-style: normal;
   font-weight: 200 !important;*/
-  font-size: 1.875rem !important;
+  font-size: 1.0 rem !important;
   letter-spacing: -0.01em !important;
   line-height: 1.25 !important;
   border-bottom: 1px solid transparent !important;
@@ -600,7 +600,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 @media screen and (min-width: 32em) {
   .notion-collection-list__item-property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string {
-    font-size: 2.111rem !important;
+    font-size: 1.4rem !important;
     line-height: 1.15 !important;
   }
 }
