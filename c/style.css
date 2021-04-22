@@ -311,7 +311,7 @@ h3.notion-heading {
 
 /* Hides page title */
 .notion-property__title {
-  display: none !important;
+  /*display: none !important;*/
 }
 
 /* Display text property as a heading */
