@@ -173,6 +173,7 @@ h3.notion-heading {
     margin-right: -20px;
   }  
 }
+
 .nav .right, .nav .left {
   display: flex;
   margin-bottom: 0.25em;
@@ -189,13 +190,12 @@ h3.notion-heading {
   padding: 200px 20px 50px 0;
   display: flex;
   height: 100%;
-  /*
   font-size: 18px;
   font-weight: 500;
   color: var(--color-text-default);
   letter-spacing: -0.01em;
   text-decoration: none;
-  */
+  
 }
 
 .nav .icon {
