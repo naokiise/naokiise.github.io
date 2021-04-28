@@ -155,7 +155,6 @@ h3.notion-heading {
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #333;
 }
 @media screen and (min-width: 30em) {
   .nav {
