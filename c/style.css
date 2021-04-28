@@ -167,13 +167,18 @@ h3.notion-heading {
   .nav .right {
     display: none;
   }
+  .nav .icon {
+    display: block;
+    margin-bottom: 0.25em;
+    margin-right: -20px;
+  }  
 }
 .nav .right, .nav .left {
   display: flex;
   margin-bottom: 0.25em;
 }
 .nav .right {
-  /*margin-right: -20px;*/
+  margin-right: -20px;
 }
 .nav-link {
   transition: all .3s ease-in-out;
@@ -184,11 +189,17 @@ h3.notion-heading {
   padding: 200px 20px 50px 0;
   display: flex;
   height: 100%;
+  /*
   font-size: 18px;
   font-weight: 500;
   color: var(--color-text-default);
   letter-spacing: -0.01em;
   text-decoration: none;
+  */
+}
+
+.nav .icon {
+  display: none;
 }
 
 /* --- CONTENT STYLING --- */
