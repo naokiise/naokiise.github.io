@@ -164,6 +164,9 @@ h3.notion-heading {
     height: 64px;
     flex-direction: row;
   }
+  .nav .right {
+    display: none;
+  }
 }
 .nav .right, .nav .left {
   display: flex;
@@ -171,7 +174,6 @@ h3.notion-heading {
 }
 .nav .right {
   /*margin-right: -20px;*/
-  display: none;
 }
 .nav-link {
   transition: all .3s ease-in-out;
