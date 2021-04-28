@@ -48,6 +48,8 @@ strong {
 
 /* Styling for page names */
 .notion-header__title {
+  font-family: aktiv-grotesk,sans-serif;
+  font-style: normal;
   font-weight: 700 !important;
   font-size: 0.75rem !important;
   line-height: 1.25 !important;
@@ -82,9 +84,9 @@ strong {
 
 /* H1 */
 h1.notion-heading, .notion-page__properties .notion-property__text {
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
+  font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
+  font-weight: 700 !important;
   /*font-size: 1.875rem !important;*/
   font-size: 1.0rem !important;
   color: rgb(11, 102, 247) !important;
@@ -102,9 +104,9 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 }
 /* H2 */
 h2.notion-heading {
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
+  font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
+  font-weight: 700 !important;
   letter-spacing: -0.01em !important;
   color: rgb(11, 102, 247) !important;
 
