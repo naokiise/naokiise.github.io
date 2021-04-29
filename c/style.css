@@ -160,7 +160,7 @@ h3.notion-heading {
   flex-direction: column;
   justify-content: space-between;
 }
-@media screen and (min-width: 500px) {/*30em) {*/
+@media screen and (min-width: 300px) and ( max-width:1024px) {/*30em) {*/
   .nav {
     align-items: center;
     padding: 0 25px;
@@ -177,6 +177,7 @@ h3.notion-heading {
   }  
 }
 
+@media screen and (min-width: 1024px){
 .nav .right, .nav .left {
   display: flex;
   margin-bottom: 0.25em;
@@ -198,6 +199,10 @@ h3.notion-heading {
   color: var(--color-text-default);
   letter-spacing: -0.01em;
   text-decoration: none;
+}
+}
+.nav-logo
+{
   
 }
 
