@@ -153,6 +153,7 @@ h3.notion-heading {
   justify-content: space-between;
 }
 
+/*smartphone*/
 @media screen and (max-width:768px) {/*30em) {*/
   .nav {
     align-items: center;
@@ -169,7 +170,7 @@ h3.notion-heading {
     margin-right: -20px;
   }  
   .nav-logo{
-    height:200px;
+    height:150px;
     margin-top:50px;
   }
 }
@@ -203,7 +204,6 @@ h3.notion-heading {
 .nav-logo
 {
   height:220px;
-  margin-top:110px;
 }
 
 }
