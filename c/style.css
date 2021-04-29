@@ -39,6 +39,8 @@ body {
 
   /* Improve kerning for good measure */
   text-rendering: optimizeLegibility;
+
+  margin:0;
 }
 
 strong {
