@@ -176,16 +176,11 @@ h3.notion-heading {
   }  
   .nav-logo{
     height:100px;
+    padding-top:50px;
   }
 }
 
 @media screen and (min-width: 768px){
-  .nav {
-    align-items: center;
-    padding: 0 25px;
-    height: 64px;
-    flex-direction: row;
-  }
 .nav .right, .nav .left {
   display: flex;
   margin-bottom: 0.25em;
@@ -214,6 +209,7 @@ h3.notion-heading {
 .nav-logo
 {
   height:220px;
+  padding-top:110px;
 }
 
 }
