@@ -40,7 +40,6 @@ body {
   /* Improve kerning for good measure */
   text-rendering: optimizeLegibility;
 
-  margin:0;
 }
 
 strong {
@@ -100,8 +99,7 @@ h1.notion-heading .notion-semantic-string, .notion-page__property .notion-proper
 /*sp*/
 @media screen and (min-width: 50em) {
   h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
-    /*font-size: 2.55rem !important;*/
-    font-size: 2rem !important;
+    font-size: 2.55rem !important;
   }
 }
 /* H2 */
@@ -155,7 +153,7 @@ h3.notion-heading {
   display: flex;
   position: static;
   z-index: 9999;
-  height: 100px;
+  height: 200px;
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
@@ -178,6 +176,7 @@ h3.notion-heading {
 }
 
 @media screen and (min-width: 1024px){
+  
 .nav .right, .nav .left {
   display: flex;
   margin-bottom: 0.25em;
@@ -203,7 +202,7 @@ h3.notion-heading {
 }
 .nav-logo
 {
-  
+  height:100%;
 }
 
 .nav .icon {
