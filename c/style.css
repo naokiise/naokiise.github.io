@@ -216,6 +216,7 @@ h3.notion-heading {
 }
 @media screen and (min-width: 415px) and (max-width: 860px) {
   .super-content, .notion-header__content {
+    width:100%;
     padding-left: 46px !important;
     padding-right: 46px !important;
   }
@@ -715,8 +716,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style of page title can be found with heading styles */
 /* Style body titles */
 [id*="writing-"] h2.notion-heading {
-  font-family: reason-new, sans-serif !important;
-  font-weight: 500 !important;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   letter-spacing: 0.015em !important;
   margin-top: 1.25em !important;
   margin-bottom: 0.25em !important;
