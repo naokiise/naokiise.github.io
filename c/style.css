@@ -160,7 +160,7 @@ h3.notion-heading {
   flex-direction: column;
   justify-content: space-between;
 }
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 500px) {/*30em) {*/
   .nav {
     align-items: center;
     padding: 0 25px;
