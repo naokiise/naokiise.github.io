@@ -572,7 +572,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-size: 0.875rem !important;
 }
 
-
+/*/////////////// PROPRTY Typography ////////////////*/
 
 /* Styles for title = 47736b3f*/
 .notion-collection-list__item-property .property-47736b3f {
@@ -600,11 +600,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin: 0.5em 0 1em !important;
 }
 .notion-collection-list__item-property .property-7173695c .notion-semantic-string {
-  /*
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: 200 !important;*/
   font-size: 0.5 rem !important;
   letter-spacing: -0.01em !important;
   line-height: 1.25 !important;
@@ -619,7 +617,27 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   }
 }
 
+/* Styles for year,authors... */
+.notion-collection-list__item-property .property-72463e7c {
+  margin: 0.5em 0 1em !important;
+}
+.notion-collection-list__item-property .property-72463e7c .notion-semantic-string {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 0.5 rem !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.25 !important;
+  border-bottom: 1px solid transparent !important;
+  transition: border-color .2s ease-in;
+}
 
+@media screen and (min-width: 32em) {
+  .notion-collection-list__item-property .property-72463e7c .notion-semantic-string {
+    font-size: 1.0rem !important;
+    line-height: 1.15 !important;
+  }
+}
 
 
 
