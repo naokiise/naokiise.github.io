@@ -574,16 +574,14 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 
 
-/* Styles for title */
+/* Styles for title = 47736b3f*/
 .notion-collection-list__item-property .property-47736b3f {
   margin: 0.5em 0 1em !important;
 }
 .notion-collection-list__item-property .property-47736b3f .notion-semantic-string {
-  /*
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
+  font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
-  font-weight: 200 !important;*/
+  font-weight: 700 !important;
   font-size: 1.875rem !important;
   letter-spacing: -0.01em !important;
   line-height: 1.25 !important;
