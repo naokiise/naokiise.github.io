@@ -93,7 +93,7 @@ li {
 
 /* media queries */
 
-@media screen and (min-width: 41.25em) {
+@media screen and (min-width: 1024px){ /*41.25em) {*/
   #menu-toggle {
     display: none;
   }
@@ -513,7 +513,7 @@ h3.notion-heading {
 article[id*="projects-"] .notion-page__property > .property-47736b3f .notion-pill {
   font-weight: 700 !important;
   color:var(--color-text-gray) !important;
-  font-size: 2.4rem !important;
+  font-size: 1.4rem !important;
   line-height: 1.25 !important;
   min-height: auto !important;
   text-transform: uppercase !important;
