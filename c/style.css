@@ -838,7 +838,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   color: var(--color-text-gray);
 }
 /* style author */
-.notion-page__property .property-property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
+.notion-page__property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
   font-size:1rem !important;
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 500;
