@@ -67,7 +67,6 @@ strong {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
 
@@ -160,7 +159,7 @@ strong {
 
 /* 48em = 768px */
 
-@media (min-width: 48em) {
+@media (min-width: 1024px){/*48em) {*/
   .header li {
     float: left;
   }
