@@ -65,6 +65,7 @@ strong {
   list-style: none;
   overflow: hidden;
   background-color:none;
+  text-align:right;
 }
 
 .header li a {
