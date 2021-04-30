@@ -83,7 +83,7 @@ strong {
   display: block;
   float: left;
   padding: 10px 20px;
-  z-index: 4;
+  z-index: 3;
   position: fixed;
 }
 
