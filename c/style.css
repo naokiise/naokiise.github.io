@@ -779,8 +779,6 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   }
 }
 
-
-
 /* Uses Notion’s file property to display featured image for article */
 .notion-collection-list__item-property .notion-property__file a > div, .notion-collection-list__item-property .notion-property__file img {
   width: 30% !important;
@@ -827,17 +825,17 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 @media screen and (min-width: 32em) {
   [id*="writing-"] .notion-property__date .notion-semantic-string .date {
-    font-size: 0.875rem !important;
+    font-size: 1rem !important;
   }
 }
 
 /* style year */
 .notion-property .notion-property__text .property-72463e7c{
-  font-size:1em;
+  font-size:1rem !important;
 }
 /* style author */
 .notion-property .notion-property__text .property-property-38376638336136632d376336632d343262342d623261622d653166306331623130343034{
-  font-size:1em;
+  font-size:1rem !important;
 }
 
 /* Style of page title can be found with heading styles */
