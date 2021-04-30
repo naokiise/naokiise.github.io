@@ -71,7 +71,7 @@ strong {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  color:blu
 }
 
 .header .logo {
@@ -96,7 +96,7 @@ strong {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 48px 40px;
   position: relative;
   user-select: none;
 }
@@ -136,7 +136,7 @@ strong {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 540px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -156,7 +156,6 @@ strong {
   top: 0;
 }
 
-/* 48em = 768px */
 
 @media (min-width: 1024px){/*48em) {*/
   .header li {
