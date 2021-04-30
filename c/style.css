@@ -832,7 +832,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* style year */
 .notion-page__property .property-72463e7c .notion-semantic-string{
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-size:1rem !important;
   color: var(--color-text-gray);
@@ -841,7 +841,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-page__property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
   font-size:1rem !important;
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-size:1rem !important;
   color: var(--color-text-gray);
