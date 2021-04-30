@@ -835,6 +835,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-property .notion-property__text .property-72463e7c{
   font-size:1em;
 }
+/* style author */
+.notion-property .notion-property__text .property-property-38376638336136632d376336632d343262342d623261622d653166306331623130343034{
+  font-size:1em;
+}
 
 /* Style of page title can be found with heading styles */
 /* Style body titles */
