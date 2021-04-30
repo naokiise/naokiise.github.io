@@ -830,7 +830,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* style year */
-.property-72463e7c{
+.notion-property .notion-property__text .property-72463e7c{
   font-size:1rem !important;
 }
 /* style author */
