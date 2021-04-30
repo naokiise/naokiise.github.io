@@ -53,7 +53,7 @@ strong {
 /* header */
 
 .header {
-  background-color:rgba(255, 255, 255);
+  background-color:rgba(255, 255, 255,0.5);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -83,6 +83,8 @@ strong {
   display: block;
   float: left;
   padding: 10px 20px;
+  z-index: 4;
+  position: fixed;
 }
 
 /* menu */
