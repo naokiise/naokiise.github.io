@@ -77,7 +77,6 @@ strong {
 .header li a:hover,
 .header .menu-btn:hover {
   color: rgb(11, 102, 247);
-  background-color:rgb(11, 102, 247);
 }
 
 .logo {
@@ -1015,6 +1014,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
+  vertical-align: 10%;
 }
 
 </style>
