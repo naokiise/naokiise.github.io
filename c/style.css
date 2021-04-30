@@ -53,7 +53,7 @@ strong {
 /* header */
 
 .header {
-  background-color:none;
+  background-color:white;
   width: 100%;
   z-index: 3;
   position:fixed;
@@ -64,7 +64,7 @@ strong {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color:none;
+  background-color:white;
   text-align:right;
 }
 
@@ -1019,6 +1019,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 .notion-link:hover{
   opacity: 0.7;
+  vertical-align: -10%;
 }
 
 </style>
