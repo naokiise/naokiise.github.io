@@ -64,7 +64,7 @@ strong {
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color:rgba(255, 255, 255,0.5);
+  background-color:none;
 }
 
 .header li a {
@@ -162,7 +162,7 @@ strong {
 }
 
 
-@media (min-width: 1280px){/*48em) {*/
+@media (min-width: 1400px){/*48em) {*/
   .header li {
     float: right;
   }
