@@ -157,7 +157,7 @@ strong {
 }
 
 
-@media (min-width: 1024px){/*48em) {*/
+@media (min-width: 1280px){/*48em) {*/
   .header li {
     float: left;
   }
