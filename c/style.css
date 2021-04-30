@@ -96,7 +96,7 @@ strong {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 48px 40px;
+  padding: 38px 30px;
   position: relative;
   user-select: none;
 }
@@ -371,7 +371,7 @@ h3.notion-heading {
 
 /* --- Remove bottom page padding and adjust page padding for smaller screens --- */
 .super-content {
-  padding-bottom: 40px !important;
+  padding-bottom: 100px !important;
 }
 @media screen and (min-width: 415px) and (max-width: 860px) {
   .super-content, .notion-header__content {
@@ -831,11 +831,20 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* style year */
 .notion-page__property .property-72463e7c .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size:1rem !important;
+  color: var(--color-text-gray);
 }
 /* style author */
-.notion-property .notion-property__text .property-property-38376638336136632d376336632d343262342d623261622d653166306331623130343034{
+.notion-page__property .property-property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
   font-size:1rem !important;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-gray);
 }
 
 /* Style of page title can be found with heading styles */
