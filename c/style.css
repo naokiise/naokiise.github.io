@@ -200,7 +200,7 @@ strong {
 }
 @media screen and (min-width: 680px) {
   .notion-header {
-    padding-top: 80px !important;
+    padding-top: 180px !important;
   }
 }
 
