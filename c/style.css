@@ -822,7 +822,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style date */
 .notion-property__date .notion-semantic-string .date {
   color: var(--color-text-gray) !important;
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
 }
 @media screen and (min-width: 32em) {
 .notion-property__date .notion-semantic-string .date {
