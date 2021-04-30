@@ -71,11 +71,12 @@ strong {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
+  color:var(--color-text-gray);
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  color:blu
+  color: rgb(11, 102, 247);
 }
 
 .header .logo {
@@ -111,7 +112,7 @@ strong {
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 28px;
 }
 
 .header .menu-icon .navicon:before,
