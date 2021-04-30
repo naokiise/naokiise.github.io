@@ -53,7 +53,7 @@ strong {
 /* header */
 
 .header {
-  background-color:rgba(255, 255, 255, 0.0);
+  background-color:rgba(255, 255, 255);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -79,12 +79,10 @@ strong {
   color: rgb(11, 102, 247);
 }
 
-.header .logo {
+.logo {
   display: block;
   float: left;
-  font-size: 2em;
   padding: 10px 20px;
-  text-decoration: none;
 }
 
 /* menu */
@@ -109,10 +107,10 @@ strong {
 .header .menu-icon .navicon {
   background: #333;
   display: block;
-  height: 2px;
+  height: 1px;
   position: relative;
   transition: background .2s ease-out;
-  width: 28px;
+  width: 32px;
 }
 
 .header .menu-icon .navicon:before,
@@ -201,7 +199,7 @@ strong {
 }
 .notion-header {
   margin-bottom: 0px !important;
-  padding-top: 32px !important;
+  padding-top: 180px !important;
 }
 @media screen and (min-width: 680px) {
   .notion-header {
@@ -824,12 +822,12 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* Style date */
-[id*="writing-"] .notion-property__date .notion-semantic-string .date {
+.notion-property__date .notion-semantic-string .date {
   color: var(--color-text-gray) !important;
   font-size: 1.4rem !important;
 }
 @media screen and (min-width: 32em) {
-  [id*="writing-"] .notion-property__date .notion-semantic-string .date {
+.notion-property__date .notion-semantic-string .date {
     font-size: 1rem !important;
   }
 }
