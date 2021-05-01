@@ -34,7 +34,7 @@ a:hover
 
 body {
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 
   /* Make the text nice and crisp */
@@ -835,7 +835,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* style year */
 .notion-page__property .property-72463e7c .notion-semantic-string{
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size:1rem !important;
   color: var(--color-text-gray);
@@ -844,7 +844,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-page__property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
   font-size:1rem !important;
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size:1rem !important;
   color: var(--color-text-gray);
@@ -1016,11 +1016,12 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
   font-style: normal;
+  vertical-align: 5px;
+
 }
 
 .notion-link:hover{
   opacity: 0.7;
-  vertical-align: 5px;
 }
 
 </style>
