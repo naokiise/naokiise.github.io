@@ -34,7 +34,7 @@ a:hover
 
 body {
   font-family: aktiv-grotesk, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
 
   /* Make the text nice and crisp */
@@ -70,9 +70,10 @@ strong {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 10px;
   text-decoration: none;
   color:var(--color-text-gray);
+  margin
 }
 
 .header li a:hover,
