@@ -664,7 +664,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Set spacing between articles */
 .notion-collection-list__item {
   padding: 0 !important;
-  margin: 1em 0 3em 0 !important;
+  margin: 1em 0 5em 0 !important;
   border-radius: 0 !important;
   display: block !important;
 }
@@ -696,11 +696,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   .notion-collection-list__item-property:first-child{
     float:right;
   }
-  .notion-collection-list__item-property:nth-child(2) {
-    float:left;
-  }
+  
   /*thumbnail layout*/
-  notion-collection-list__item-property:nth-child(n+2){
+  notion-collection-list__item-property:nth-child(n+1){
     clear:both;
   }
 /*}*/
@@ -731,7 +729,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Hides page title */
 .notion-collection-list__item .notion-property__title .notion-semantic-string {
-  display: none !important;
+  /*display: none !important;*/
 }
 
 /* Resets font size of title */
