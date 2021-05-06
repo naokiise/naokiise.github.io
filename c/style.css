@@ -409,11 +409,14 @@ h3.notion-heading {
 
 /* --- Adjust quote styling so it can be used as a standfirst --- */
 .notion-quote {
-  border-left: solid var(--color-text-gray)!important;
+  border-left: 1px solid var(--color-text-gray)!important;
   padding: 10!important;
   margin: .5rem 0 1rem!important;
-  font-size:0.5rem;
   border-color:var(--color-text-gray);
+}
+
+.notion-quote .notion-semantic-string {
+  font-size: 0.8rem !important;
 }
 
 /* --- Change handling of full width images --- */
