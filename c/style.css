@@ -697,7 +697,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     float:left;
   }
   .notion-collection-list__item-property:nth-child(2) {
-    float:right;
+    float:left;
   }
   /*thumbnail layout*/
   notion-collection-list__item-property:nth-child(n+2){
