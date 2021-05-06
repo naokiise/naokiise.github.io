@@ -652,7 +652,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style for listing of articles */
 .notion-collection-list {
   display: block !important;
-  max-width: 660px !important;
+  max-width: 860px !important;
   padding: 0 !important;
   border-top: 0 !important;
 }
