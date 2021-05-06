@@ -664,7 +664,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Set spacing between articles */
 .notion-collection-list__item {
   padding: 0 !important;
-  margin: 1em 0 5em 0 !important;
+  margin: 1em 0 10em 0 !important;
   border-radius: 0 !important;
   display: block !important;
 }
@@ -724,12 +724,12 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Hides icon */
 .notion-property__title .notion-property__title__icon-wrapper {
-  /*display: none !important; display title?*/
+  display: none !important; display title?
 }
 
 /* Hides page title */
 .notion-collection-list__item .notion-property__title .notion-semantic-string {
-  /*display: none !important;*/
+  display: none !important;
 }
 
 /* Resets font size of title */
