@@ -412,6 +412,8 @@ h3.notion-heading {
   border-left: 1px!important;
   padding: 10!important;
   margin: .5rem 0 1rem!important;
+  font-size:1rem;
+  border-color:var(--color-text-gray);
 }
 
 /* --- Change handling of full width images --- */
