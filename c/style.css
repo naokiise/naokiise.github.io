@@ -161,10 +161,6 @@ strong {
 
 
 @media (min-width: 1400px){/*48em) {*/
-  .header .menu{
-    float:right;
-    padding-right:100px;
-  }
   .header li {
     float: left;
   }
