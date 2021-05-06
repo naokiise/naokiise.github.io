@@ -73,7 +73,6 @@ strong {
   padding: 10px;
   text-decoration: none;
   color:var(--color-text-gray);
-  margin
 }
 
 .header li a:hover,
@@ -90,7 +89,6 @@ strong {
 }
 
 /* menu */
-
 .header .menu {
   clear: both;
   max-height: 0;
@@ -98,7 +96,6 @@ strong {
 }
 
 /* menu icon */
-
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
@@ -137,7 +134,6 @@ strong {
 }
 
 /* menu btn */
-
 .header .menu-btn {
   display: none;
 }
@@ -165,8 +161,12 @@ strong {
 
 
 @media (min-width: 1400px){/*48em) {*/
+  .header .menu{
+    float:right;
+    padding-right:100px;
+  }
   .header li {
-    float: right;
+    float: left;
   }
   .header li a {
     padding: 20px 30px;
