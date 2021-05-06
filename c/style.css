@@ -694,10 +694,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 /*@media screen (min-width: 32em) {*/
   .notion-collection-list__item-property:first-child{
-    float:left;
+    float:right;
   }
   .notion-collection-list__item-property:nth-child(2) {
-    float:right;
+    float:left;
   }
   /*thumbnail layout*/
   notion-collection-list__item-property:nth-child(n+2){
