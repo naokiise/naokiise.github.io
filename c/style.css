@@ -808,7 +808,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Uses Notion’s file property to display featured image for article */
 .notion-collection-list__item-property .notion-property__file a > div, .notion-collection-list__item-property .notion-property__file img {
-  width: 200px !important;
+  width: 150px !important;
   height: auto !important;
   max-height: none !important;
   margin-right: 0 !important;
