@@ -894,6 +894,14 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-size:1rem !important;
   color: var(--color-text-gray);
 }
+/* style title */
+.notion-page__property .property-47736b3f .notion-semantic-string{
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-gray);
+}
 
 /* Style of page title can be found with heading styles */
 /* Style body titles */
