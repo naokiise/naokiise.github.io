@@ -663,7 +663,6 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Set spacing between articles */
 .notion-collection-list__item {
-  padding-bottom: 5px !important;
   margin: 1em 0 10em 0 !important;
   border-radius: 0 !important;
   display: block !important;
@@ -692,9 +691,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Restyle meta data of each article in the list */
 .notion-collection-list__item-property {
-  /*padding: 0 !important;*/
+  padding: 0 !important;
 }
-@media screen (min-width: 32em) {
+@media screen (min-width: 480px) {
   .notion-collection-list__item-property:first-child{
     float:right;
     padding-left: 100px;
