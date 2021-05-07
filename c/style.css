@@ -694,16 +694,27 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   padding: 0 !important;
 }
 @media screen and (min-width: 32em) {
+  .notion-collection-list__item-property:last-child{
+    float:right;
+    padding-left: 100px;
+  }
+  notion-collection-list__item-property:nth-child(-n+5){
+    clear:both;
+    width:600px;
+  }
+  /*
   .notion-collection-list__item-property:first-child{
     float:right;
     padding-left: 100px;
   }
-  
   /*thumbnail layout*/
+  /*
   notion-collection-list__item-property:nth-child(n+1){
     clear:both;
     width:600px;
   }
+  */
+
 }
 
 
