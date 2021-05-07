@@ -900,7 +900,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-weight: 600;
   font-style: normal;
   font-size:5rem !important;
-  color: var(--color-text-gray);
+  color:var(--color-text-default-light);
 }
 
 /* Style of page title can be found with heading styles */
