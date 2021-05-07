@@ -692,7 +692,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-collection-list__item-property {
   padding: 0 !important;
 }
-@media screen (min-width: 32em) {
+/*@media screen (min-width: 32em) {*/
   .notion-collection-list__item-property:first-child{
     float:right;
     width:25%;
@@ -704,7 +704,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     clear:both;
     width:65%;
   }
-}
+/*}*/
 
 
 
