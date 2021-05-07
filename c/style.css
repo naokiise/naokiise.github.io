@@ -754,7 +754,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-size: 1rem !important;
   font-weight: Medium;
   line-height: 1.0 !important;
-  color:rgb(6, 122, 255);
+  color:var(--color-text-default-light);
 }
 
 /* Resets font size of date */
