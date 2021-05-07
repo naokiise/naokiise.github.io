@@ -774,6 +774,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   line-height: 1.25 !important;
   border-bottom: 1px solid transparent !important;
   transition: border-color .2s ease-in;
+  font-feature-settings: "palt";
 }
 @media screen and (min-width: 32em) {
   .notion-collection-list__item-property .property-47736b3f .notion-semantic-string {
