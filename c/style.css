@@ -901,6 +901,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-style: normal;
   font-size:2rem !important;
   color:var(--color-text-default-light);
+  font-feature-settings: "palt";
 }
 
 /* Style of page title can be found with heading styles */
