@@ -695,14 +695,13 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /*@media screen (min-width: 32em) {*/
   .notion-collection-list__item-property:first-child{
     float:right;
-    width:25%;
     padding-left: 10px;
   }
   
   /*thumbnail layout*/
   notion-collection-list__item-property:nth-child(n+1){
     clear:both;
-    width:65%;
+    width:600px;
   }
 /*}*/
 
