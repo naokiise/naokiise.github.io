@@ -696,7 +696,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /*@media screen (min-width: 32em) {*/
   .notion-collection-list__item-property:first-child{
     float:right;
-    padding-left: 10px;
+    padding-left: 100px;
   }
   
   /*thumbnail layout*/
