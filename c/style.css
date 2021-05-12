@@ -1078,8 +1078,8 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 
 
-.notion-link{
-  z-index: 3;
+.notion-collection-list__item-anchor{
+  z-index: 9996;
 }
 
 </style>
