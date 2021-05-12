@@ -706,6 +706,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     grid-column: 1 / 2;
   }
   .notion-collection-list__item-property:last-child{
+    grid-row: 1 / 2;
     grid-column: 2 / 3;
   }
   
@@ -737,8 +738,8 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 @media screen and (min-width: 32em)  {
   .notion-collection-list__item-content{
     display: grid !important;
-    grid-template-columns: 600px 1fr;
-    grid-template-rows: 100px 100px 200px 100px 100px;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: auto;
   }
 }
 
