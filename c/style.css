@@ -735,6 +735,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   display: block !important;
 }
 
+.notion-collection-list__item-content{
+  display: block !important;
+}
+
 @media screen and (min-width: 32em)  {
   .notion-collection-list__item-content{
     display: grid !important;
