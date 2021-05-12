@@ -702,7 +702,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 @media screen and (min-width: 32em) {
   
-  notion-collection-list__item-property:nth-child(-n+5){
+  .notion-collection-list__item-property:nth-child(-n+5){
     grid-column: 1 / 2;
   }
   .notion-collection-list__item-property:last-child{
