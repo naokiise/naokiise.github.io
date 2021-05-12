@@ -739,6 +739,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     display: grid !important;
     grid-template-columns: 1fr 200px;
     grid-template-rows: auto;
+    column-gap: 100px;
   }
 }
 
