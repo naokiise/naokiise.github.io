@@ -736,7 +736,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 @media screen and (min-width: 32em)  {
   .notion-collection-list__item-content{
-    display: grid;
+    display: grid !important;
     grid-template-columns: 600px 1fr;
     grid-template-rows: 100px 100px 200px 100px 100px;
   }
