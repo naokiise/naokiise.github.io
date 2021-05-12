@@ -847,6 +847,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   margin-top: 0.5em !important;
   margin-bottom: 1.5em !important;
 }
+/* no link*/
+.notion-collection-list__item-property .notion-property__file a{
+  pointer-events:none;
+}
 
 /* --- Article page --- */
 
