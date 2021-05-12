@@ -705,7 +705,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     grid-column: 1 / 2;
   }
   .notion-collection-list__item-property:last-child{
-    grid-row: 1 / 2;
+    grid-row: 1 / 4;
     grid-column: 2 / 3;
   }
   
