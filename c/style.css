@@ -669,7 +669,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 
 /* Set spacing between articles */
 .notion-collection-list__item {
-  margin: 1em 0 10em 0 !important;
+  margin: 1em 0 5em 0 !important;
   border-radius: 0 !important;
   display: block !important;
   border-bottom: 1px solid var(--color-text-gray);
