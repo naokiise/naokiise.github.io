@@ -55,7 +55,7 @@ strong {
 .header {
   background-color:white;
   width: 100%;
-  z-index: 9999;
+  z-index: 9998;
   position:fixed;
 }
 
@@ -84,7 +84,7 @@ strong {
   display: block;
   float: left;
   padding: 10px 20px;
-  z-index: 5;
+  z-index: 9999;
   position: fixed;
 }
 
