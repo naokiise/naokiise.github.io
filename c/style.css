@@ -754,13 +754,15 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* Hides icon */
-.notion-property__title .notion-property__title__icon-wrapper {
-  display: none !important; display title?
+/*.notion-property__title*/ .notion-property__title__icon-wrapper {
+  display: none !important; 
 }
+
 
 /* Hides page title */
 .notion-collection-list__item .notion-property__title .notion-semantic-string {
-  display: none !important;
+  /*display: none !important;*/
+  display: block !important;
 }
 
 /* Resets font size of title */
