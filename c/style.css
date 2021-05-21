@@ -1088,10 +1088,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 .notion-navbar__title{
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2.5rem;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: 2.5rem !important;
 }
 
 
