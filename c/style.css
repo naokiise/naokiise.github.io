@@ -754,7 +754,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-size: 1.875rem !important;
   font-feature-settings: "palt";
   color: var(--color-text-default-light);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* Resets font size of title */
