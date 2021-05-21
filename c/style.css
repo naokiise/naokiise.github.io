@@ -1082,9 +1082,9 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   opacity: 0.4;
 }
 
-/*hide web title on notion navigation*/
-.notion-breadcrumb__item .notion-navbar__title{
-  display:none !important;
+/*hide web titles on notion navigation*/
+.notion-breadcrumb__item:nth-child(-n+2){
+  display: none !important;
 }
 
 .notion-navbar__title{
@@ -1093,5 +1093,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-style: normal;
   font-size: 2.5rem;
 }
+
+
 
 </style>
