@@ -750,7 +750,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-weight: 600;
   font-style: normal;
   font-size: 1.875rem !important;
-
+  font-feature-settings: "palt";
+  color: var(--color-text-default-light);
+  text-decoration: none;
 }
 
 /* Resets font size of title */
