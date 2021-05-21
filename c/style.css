@@ -277,6 +277,7 @@ h3.notion-heading {
 .notion-navbar {
   /*display: none !important;*/
   display: block !important;
+  padding-top: 100px;
 }
 
 /* Custom nav styling (see HTML at bottom of code) */
