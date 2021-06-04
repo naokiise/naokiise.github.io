@@ -758,7 +758,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   text-decoration: none !important;
   overflow: auto !important;
   white-space: normal !important;
-  
+
 }
 
 /* Resets font size of title */
@@ -1109,11 +1109,15 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   }
 }
 
+/*hide Create with AI on navigation*/
 .notion-navbar__title{
+  /*
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif !important;
   font-weight: 600 !important;
   font-style: normal !important;
   font-size: 2.5rem !important;
+  */
+  display: none !important;
 }
 
 .notion-breadcrumb__divider{
