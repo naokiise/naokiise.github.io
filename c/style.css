@@ -759,6 +759,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   overflow: auto !important;
   white-space: normal !important;
 
+
 }
 
 /* Resets font size of title */
@@ -1102,12 +1103,13 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 /*hide icons*/
+/*
 .notion-breadcrumb__item{
   div:nth-child(-n+2){
     display:none !important;
   }
 }
-
+*/
 /*hide Create with AI on navigation*/
 .notion-navbar__title{
   /*
