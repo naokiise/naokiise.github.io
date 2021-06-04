@@ -7,7 +7,7 @@ html {
 /* --- Change default colors --- */
 :root {
   --color-bg-default: #ffffff !important;
-  --color-text-default: rgb(128, 128, 128) !important;
+  --color-text-default: hsl(0, 0%, 70%) !important;
   --color-text-default-light: rgb(3, 94, 251) !important;
   --color-text-gray: #959BA9 !important;
   --collection-card-cover-size-large: 210px !important;
