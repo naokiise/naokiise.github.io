@@ -745,7 +745,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 
-/* Hides page title */
+/* Show page title */
 .notion-collection-list__item .notion-property__title .notion-semantic-string {
   /*display: none !important;*/
   display: block !important;
@@ -756,6 +756,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-feature-settings: "palt";
   color: var(--color-text-default-light);
   text-decoration: none !important;
+  overflow: auto !important;
+  white-space: normal !important;
+  
 }
 
 /* Resets font size of title */
