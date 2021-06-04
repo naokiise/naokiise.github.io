@@ -7,7 +7,7 @@ html {
 /* --- Change default colors --- */
 :root {
   --color-bg-default: #ffffff !important;
-  --color-text-default: hsl(0, 0%, 50%) !important;
+  --color-text-default: hsl(0, 0%, 90%) !important;
   --color-text-default-light: rgb(3, 94, 251) !important;
   --color-text-gray: hsl(0, 0%, 80%) !important;
   --collection-card-cover-size-large: 210px !important;
@@ -704,7 +704,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 @media screen and (min-width: 32em) {
   
-  .notion-collection-list__item-property:nth-child(-n+4){
+  .notion-collection-list__item-property:nth-child(-n+6){
     grid-column: 1 / 2;
   }
   .notion-collection-list__item-property:last-child{
