@@ -1097,10 +1097,9 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   display: none !important;
 }
 */
-.notion-breadcrumb__item:{
+.notion-breadcrumb__item{
   display: none !important;
 }
-
 
 /*hide icons*/
 .notion-breadcrumb__item{
