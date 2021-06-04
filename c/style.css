@@ -204,8 +204,9 @@ strong {
   display: none !important;
 }
 .notion-header {
-  margin-bottom: 0px !important;
-  padding-top: 180px !important;
+  /*margin-bottom: 0px !important;
+  padding-top: 180px !important;*/
+  display:none !important;
 }
 @media screen and (min-width: 680px) {
   .notion-header {
