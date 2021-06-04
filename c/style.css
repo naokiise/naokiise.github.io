@@ -9,7 +9,7 @@ html {
   --color-bg-default: #ffffff !important;
   --color-text-default: hsl(0, 0%, 70%) !important;
   --color-text-default-light: rgb(3, 94, 251) !important;
-  --color-text-gray: #959BA9 !important;
+  --color-text-gray: hsl(222, 10%, 62%) !important;
   --collection-card-cover-size-large: 210px !important;
 }
 @media screen and (min-width: 50em) {
@@ -1084,6 +1084,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 
 /*hide web titles on notion navigation*/
+/*
 .notion-breadcrumb__item:nth-child(1){
   display: none !important;
 }
@@ -1091,6 +1092,11 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 .notion-breadcrumb__item .has-icon:nth-child(1){
   display: none !important;
 }
+*/
+.notion-breadcrumb__item:{
+  display: none !important;
+}
+
 
 /*hide icons*/
 .notion-breadcrumb__item{
