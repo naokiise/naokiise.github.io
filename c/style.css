@@ -900,7 +900,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* notion-page__properties .notion-property__text */
 
 /* Style english title*/
-.notion-page__properties .notion-property__text  .property-4a686c7e .notion-semantic-string{
+.notion-page__properties .notion-property__text.property-4a686c7e .notion-semantic-string{
   font-family: aktiv-grotesk, sans-serif;
   font-size: 1.6rem !important;
   font-weight: 300;
