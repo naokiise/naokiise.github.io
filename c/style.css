@@ -819,7 +819,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-family: a-otf-gothic-bbb-pr6n, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 0.5 rem !important;
+  font-size: 0.8 rem !important;
   letter-spacing: -0.01em !important;
   line-height: 1.25 !important;
   border-bottom: 1px solid transparent !important;
@@ -887,34 +887,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   }
 }
 
-/* Style description */
-.notion-page__property .property-7173695 .notion-semantic-string{
-  font-family: aktiv-grotesk, sans-serif;
-  font-size: 1.4rem !important;
-  font-weight: 400;
-  font-style: normal;
-  font-size:1rem !important;
-  color: var(--color-text-default-light);
-}
-
-/* style year */
-.notion-page__property .property-72463e7c .notion-semantic-string{
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:1rem !important;
-  color: var(--color-text-gray);
-}
-/* style author */
-.notion-page__property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
-  font-size:1rem !important;
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:1rem !important;
-  color: var(--color-text-gray);
-}
-/* style title */
+/* Style Main title */
 .notion-page__property .property-47736b3f .notion-semantic-string{
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-weight: 600;
@@ -923,6 +896,43 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   color:var(--color-text-default-light);
   font-feature-settings: "palt";
 }
+
+/* Style english title*/
+.notion-page__property .property-4a686c7 .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.6rem !important;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-text-default-light);
+}
+
+/* Style description */
+.notion-page__property .property-7173695 .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.2rem !important;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-text-default-light);
+}
+
+/* Style year */
+.notion-page__property .property-72463e7c .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-gray);
+}
+/* Style author */
+.notion-page__property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
+  font-size:1rem !important;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-gray);
+}
+
 
 /* Style of page title can be found with heading styles */
 /* Style body titles */
