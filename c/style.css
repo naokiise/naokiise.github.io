@@ -887,6 +887,16 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   }
 }
 
+/* Style description */
+.notion-page__property .property-7173695 .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.4rem !important;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-default-light);
+}
+
 /* style year */
 .notion-page__property .property-72463e7c .notion-semantic-string{
   font-family: aktiv-grotesk, sans-serif;
