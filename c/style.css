@@ -8,7 +8,7 @@ html {
 :root {
   --color-bg-default: #ffffff !important;
   --color-text-default: hsl(0, 0%, 50%) !important;
-  --color-text-default-light: rgb(3, 94, 251) !important;
+  --color-text-default-light: rgb(0, 95, 250) !important;
   --color-text-gray: hsl(0, 0%, 50%) !important;
   --collection-card-cover-size-large: 210px !important;
 }
