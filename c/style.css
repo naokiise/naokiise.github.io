@@ -897,20 +897,22 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-feature-settings: "palt";
 }
 
+/* notion-page__properties .notion-property__text */
+
 /* Style english title*/
-.notion-page__property .property-4a686c7 .notion-semantic-string{
+.notion-page__properties .property-4a686c7 .notion-semantic-string{
   font-family: aktiv-grotesk, sans-serif;
   font-size: 1.6rem !important;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: var(--color-text-default-light);
 }
 
 /* Style description */
 .notion-page__property .property-7173695 .notion-semantic-string{
-  font-family: aktiv-grotesk, sans-serif;
-  font-size: 1.2rem !important;
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
   font-weight: 400;
+  font-size: 1.2rem !important;
   font-style: normal;
   color: var(--color-text-default-light);
 }
