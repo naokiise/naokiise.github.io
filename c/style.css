@@ -902,7 +902,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style english title*/
 .notion-page__properties .notion-property__text.property-4a686c7e .notion-semantic-string{
   font-family: aktiv-grotesk, sans-serif;
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
   font-weight: 300;
   font-style: normal;
   color: var(--color-text-default-light);
@@ -912,7 +912,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 .notion-page__properties .notion-property__text.property-7173695c .notion-semantic-string{
   font-family: a-otf-gothic-bbb-pr6n, sans-serif;
   font-weight: 400;
-  font-size: 1.2rem !important;
+  font-size: 1.4rem !important;
   font-style: normal;
   color: var(--color-text-default-light);
 }
