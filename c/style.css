@@ -704,10 +704,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 @media screen and (min-width: 32em) {
   
-  .notion-collection-list__item-property:nth-child(-n+6){
+  .notion-collection-list__item-property:nth-child(-n+5){
     grid-column: 1 / 2;
   }
-  .notion-collection-list__item-property:last-child{
+  .notion-collection-list__item-property:nth-child(6){
     grid-row: 1 / 5;
     grid-column: 2 / 3;
     align-self:start;
