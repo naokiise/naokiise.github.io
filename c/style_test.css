@@ -1,0 +1,1153 @@
+<style>
+
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+/* --- Change default colors --- */
+:root {
+  --color-bg-default: #ffffff !important;
+  --color-text-default: hsl(0, 0%, 20%) !important;
+  --color-text-default-light: rgb(0, 95, 250) !important;
+  --color-text-gray: hsl(0, 0%, 20%) !important;
+  --collection-card-cover-size-large: 210px !important;
+}
+@media screen and (min-width: 50em) {
+  :root {
+    --collection-card-cover-size-large: 270px !important;
+  }
+}
+
+a:hover
+{
+  opacity: 0.7;
+}
+
+/* --- TYPOGRAPHY --- */
+
+/* Increase base font size for large screens */
+@media screen and (min-width: 50em) {
+  html {
+    font-size: 18px !important;
+  }
+}
+
+body {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  /* Make the text nice and crisp */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Improve kerning for good measure */
+  text-rendering: optimizeLegibility;
+
+}
+
+strong {
+    font-weight: 500 !important;
+}
+
+/* header */
+
+.header {
+  background-color:white;
+  width: 100%;
+  z-index: 9998;
+  position:fixed;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color:white;
+  text-align:right;
+}
+
+.header li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:var(--color-text-gray);
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  color:var(--color-text-default-light);
+}
+
+.logo {
+  display: block;
+  float: left;
+  padding: 10px 20px;
+  z-index: 9999;
+  position: fixed;
+}
+
+/* menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 38px 30px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 1px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 32px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 540px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
+@media (min-width: 1400px){/*48em) {*/
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+  .titleJP{
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+
+
+
+/* Styling for page names */
+.notion-header__title {
+  font-family: aktiv-grotesk,sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 0.75rem !important;
+  line-height: 1.25 !important;
+  min-height: auto !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  padding: 0 !important;
+  display: none;
+}
+.notion-header__content>div {
+  margin-bottom: 0px !important;
+  display: none !important;
+}
+.notion-header {
+  /*margin-bottom: 0px !important;
+  padding-top: 180px !important;*/
+  display:none !important;
+}
+@media screen and (min-width: 680px) {
+  .notion-header {
+    padding-top: 180px !important;
+  }
+}
+
+/* Adjust line-height and letter-spacing for body copy */
+.notion-semantic-string {
+  line-height: 1.7 !important;
+  letter-spacing: -0.01em !important;
+}
+
+
+/* --- Heading styles --- */
+
+/* H1 */
+h1.notion-heading/*, .notion-page__properties .notion-property__text*/ {
+  font-family: aktiv-grotesk,sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 1.875rem !important;
+  color:var(--color-text-default-light) !important;
+}
+h1.notion-heading .notion-semantic-string, .notion-page__property .notion-property__text .notion-semantic-string {
+  line-height: 1.27 !important;
+  letter-spacing: -0.03em !important;
+}
+/* H2 */
+h2.notion-heading {
+  font-family: aktiv-grotesk,sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em !important;
+  color:var(--color-text-default-light) !important;
+
+}
+
+/* H3 */
+h3.notion-heading {
+  font-weight: 500 !important;
+  margin-bottom: 0.25em !important;
+  color:var(--color-text-default-light)  !important;
+
+}
+
+/* Remove padding */
+.notion-heading {
+  padding: 0 !important;
+}
+
+/* Adjust line height for H2 and H3 */
+.notion-heading .notion-semantic-string {
+  line-height: 1.3 !important;
+}
+
+/* Ensure opacity remains at 1 when a heading is a link */
+.notion-heading .notion-semantic-string .link {
+  opacity: 1 !important;
+}
+
+.notion-text__content {
+  padding: 8px 0 !important;
+}
+
+/* --- NAVIGATION --- */
+
+/* Hide the Notion nav bar */
+.notion-navbar {
+  /*display: none !important;*/
+  display: block !important;
+  padding-top: 200px !important;
+}
+
+/* Custom nav styling (see HTML at bottom of code) */
+.nav {
+  align-items: flex-start;
+  padding: 25px 25px 100px 25px;
+  display: flex;
+  position: static;
+  z-index: 9999;
+  height: 100px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*smartphone*/
+@media screen and (max-width:768px) {/*30em) {*/
+  .nav {
+    align-items: center;
+    padding: 0 25px;
+    height: 64px;
+    flex-direction: row;
+  }
+  .nav .right {
+    display: none;
+  }
+
+  .nav .right .responsive{position:relative;}
+  .nav .right .responsive a.icon{
+    position:absolute;
+    right:0;
+    top:0;
+  }
+  .nav .right .responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav .right a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+  .nav .icon {
+    display: block;
+    margin-bottom: 0.25em;
+    margin-right: -40px;
+  }  
+  .nav-logo{
+    height:150px;
+  }
+}
+
+@media screen and (min-width: 768px){
+.nav .right, .nav .left {
+  display: flex;
+  margin-bottom: 0.25em;
+}
+.nav .right {
+  margin-right: -20px;
+}
+.nav-link {
+  transition: all .3s ease-in-out;
+  /*
+  justify-content: center;
+  align-items: center;
+  */
+  padding: 200px 20px 50px 0;
+  display: flex;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text-default);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+.nav .icon {
+  display: none;
+}
+.nav-logo
+{
+  height:220px;
+}
+
+}
+
+
+
+
+/* --- CONTENT STYLING --- */
+
+/* --- Adjust the max width of pages --- */
+.super-content.max-width, .notion-header__content.max-width {
+  max-width: 1080px!important;
+}
+
+/* --- Remove bottom page padding and adjust page padding for smaller screens --- */
+.super-content {
+  padding-bottom: 100px !important;
+}
+@media screen and (min-width: 415px) and (max-width: 860px) {
+  .super-content, .notion-header__content {
+    width:100%;
+    padding-left: 46px !important;
+    padding-right: 46px !important;
+  }
+}
+
+/* --- Remove additional spacing on mobile that is created by column layout on desktop --- */
+@media screen and (max-width:680px) {
+  .notion-column {
+    padding: 0px!important;
+  }
+}
+
+/* --- Control heading spacing in column layout --- */
+.notion-column>.notion-heading {
+  margin-top: 7px !important;
+}
+
+/* delete icons*/
+.notion-header__icon-wrapper {
+  padding: 2px!important;
+  bottom: 8px!important;
+  display: none !important;
+}
+
+/* --- Adjust quote styling so it can be used as a standfirst --- */
+.notion-quote {
+  border-left: 1px solid var(--color-text-gray)!important;
+  padding: 10!important;
+  margin: .5rem 0 1rem!important;
+  border-color:var(--color-text-gray);
+}
+
+.notion-quote .notion-semantic-string {
+  font-size: 0.8rem !important;
+}
+
+/* --- Change handling of full width images --- */
+.notion-image.full-width img {
+  object-fit: fill!important;
+  height: auto!important;
+}
+
+/* --- Change Image caption alignment --- */
+.notion-image.page-width>figcaption, .notion-image.full-width>figcaption {
+  text-align: center!important;
+}
+
+/* --- PROJECTS LISTING --- */
+
+/* Remove header of the gallery table */
+.notion-collection__header {
+  display: none !important;
+}
+
+/* Stop card from breaking out of layout on screens smaller than 370px */
+.notion-collection-gallery {
+  display: block !important;
+  border-top: none !important;
+}
+
+@media screen and (min-width: 370px) {
+  /* Adjust spacing of gallery grid */
+  .notion-collection-gallery {
+    display: grid !important;
+    grid-gap: 46px !important;
+    gap: 46px !important;
+    grid-row-gap: 66px !important;
+  }
+}
+
+/* Override default card styling */
+.notion-collection-card {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 44px !important;
+}
+@media screen and (min-width: 370px) {
+  .notion-collection-card {
+    margin-bottom: 0 !important;
+  }
+}
+
+.notion-collection-card:hover {
+  background: transparent !important;
+}
+.notion-collection-card__cover.large, .notion-collection-card__cover.large>div, .notion-collection-card__cover.large img, .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>div, .notion-collection-card__cover.medium img {
+  height: auto !important;
+  max-height: none !important;
+}
+.notion-collection-card__cover.large>div {
+  position: relative !important;
+}
+.notion-collection-card__cover {
+  height: auto !important;
+  min-height: none !important;
+  border-bottom: none !important;
+}
+.notion-collection-card__cover img {
+  position: relative !important;
+  height: auto !important;
+  width: 100% !important;
+  border-radius: 0  !important;
+  object-fit: contain !important;
+  object-position: initial !important;
+  padding-bottom: 0  !important;
+}
+.notion-collection-card__content {
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  font-size: 1rem !important;
+  overflow: hidden;
+}
+.notion-collection-card__content.no-title {
+  padding-top: 0 !important;
+}
+
+/* Hides page title */
+.notion-property__title {
+  /*display: none !important;*/
+}
+
+/* Display text property as a heading */
+.notion-collection-card__property .notion-semantic-string {
+  display: block !important;
+  margin: 0.6em 0 0.4em !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em !important;
+  white-space: normal !important;
+}
+
+/* Add underline to title on hover of project card */
+.notion-collection-card.gallery .notion-collection-card__property .notion-semantic-string span {
+  border-bottom: 1px solid transparent !important;
+  transition: border-color .2s ease-in;
+}
+.notion-collection-card.gallery:hover .notion-collection-card__property .notion-semantic-string span {
+  border-bottom: 1px solid var(--color-text-gray) !important;
+}
+
+/* Increase spacing between project meta data */
+.notion-collection-card__property {
+  margin: 3px 0 !important;
+}
+
+/* Stop the tags from truncating */
+.notion-property__select {
+  display: inline !important;
+  white-space: normal !important;
+  overflow: auto !important;
+}
+
+/* Adjust pill styling */
+.notion-pill {
+  font-size: 1rem !important;
+  border-radius: 0px !important;
+  line-height: 24px !important;
+  margin: 2px 0 !important;
+  padding: 0 !important;
+  display: inline !important;
+  white-space: normal !important;
+  text-overflow: initial !important;
+}
+
+/* Adds comma before each item */
+.notion-pill::before {
+  content: ", ";
+  white-space: pre;
+}
+
+/* Removes comma before first item */
+.notion-pill.first::before {
+  content: "";
+}
+
+/* Make all but the default colour display as a lighter colour */
+.pill-default {
+  background: none !important;
+}
+.pill-gray, .pill-brown, .pill-orange, .pill-yellow, .pill-green, .pill-blue, .pill-purple, .pill-pink, .pill-red {
+  background: none !important;
+  color: var(--color-text-gray) !important;
+}
+
+/* --- PROJECT PAGE --- */
+
+/* Hide cover image from page headers */
+.notion-header__cover {
+  display: none !important;
+}
+.notion-header__content.no-icon.has-cover .notion-header__title-wrapper {
+  margin-top: 0 !important;
+}
+
+/* hide icons, urls */
+.has-icon .notion-property__url .has-icon-image
+{
+  display: none !important;
+}
+
+article[id*="projects-"] .notion-page__property > .property-47736b3f .notion-pill {
+  font-weight: 500 !important;
+  color:var(--color-text-gray) !important;
+  font-size: 1.4rem !important;
+  line-height: 1.25 !important;
+  min-height: auto !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  padding: 0 !important;
+}
+
+/* Amend the display of Notion’s page properties to act as header and meta data */
+
+/* Adjust spacing between header text elements */
+.notion-page__properties {
+  margin: 16px 0 0 0;
+}
+@media screen and (min-width: 680px) {
+  .notion-page__properties {
+    margin: 30px 0 60px 0;
+  }
+}
+
+.notion-property__text .notion-semantic-string {
+  margin-bottom: 16px;
+}
+
+/* Display as single column */
+.notion-page__property {
+  grid-template-columns: 1fr !important;
+}
+
+/* Remove default styling of properties */
+.notion-page__properties .notion-property {
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+/*
+@media screen and (min-width: 50em) {
+  .notion-page__properties .notion-property {
+  font-size: 1rem !important;
+  }
+}
+*/
+
+/* Hide property name */
+.notion-page__property-name {
+ /*display: none !important;*/
+}
+
+/* Hide divider */
+.notion-page__properties .notion-divider {
+  display: none;
+}
+
+/* - - - - - - - - - - - - - - - - - -
+
+CUSTOMISING YOUR BLOG:
+
+All the styles below are appended with a conditional target, it looks like this [id*="writing"]. What that is doing is looking for the presence of the string ‘writing’ in an id. That id is generated when you give a page a Pretty URL in Super. So long as the listing page and the article pages contain ‘writing’ in the pretty URL everything below will work fine.
+
+If you prefer to use a different term to writing e.g. blog, thoughts, journal then you’ll need to first use that term for your Pretty URLs then find and replace all instances of "writing" with your chosen term. Here’s an example:
+
+Listing view: [id*="writing"] becomes [id*="journal"]
+Article view: [id*="writing-"] becomes [id*="journal-"]
+
+ - - - - - - - - - - - - - - - - - - */
+
+/* --- Article listing --- */
+
+/* Style for listing of articles */
+.notion-collection-list {
+  display: block !important;
+  max-width: 1080px !important;/*860px !important;*/
+  padding: 0 !important;
+  border-top: 0 !important;
+}
+
+/* Center aligns list on article listing page */
+[id*="writing"] .notion-collection-list {
+  margin: 0 auto;
+}
+
+/* Set spacing between articles */
+.notion-collection-list__item {
+  margin: 1em 0 5em 0 !important;
+  border-radius: 0 !important;
+  display: block !important;
+  border-bottom: 1px solid var(--color-text-gray);
+}
+@media screen and (min-width: 32em) {
+  .notion-collection-list__item {
+    margin: 2em 0 3em 0 !important;
+    padding-bottom: 30px !important;
+  }
+  [id*="writing"] .notion-collection-list__item {
+    margin-bottom: 5em !important;
+  }
+}
+.notion-collection-list__item:last-child {
+  margin-bottom: 2em !important;
+}
+
+/* Hover styles for listing of articles */
+.notion-collection-list__item:hover {
+  background-color: transparent !important;
+}
+.notion-collection-list__item:hover .property-3b755650 .notion-semantic-string {
+  border-bottom: 1px solid var(--color-text-gray) !important;
+}
+
+/* Restyle meta data of each article in the list */
+.notion-collection-list__item-property {
+  padding: 0 !important;
+}
+@media screen and (min-width: 32em) {
+  
+  .notion-collection-list__item-property:nth-child(-n+6){
+    grid-column: 1 / 2;
+  }
+  .notion-collection-list__item-property:nth-child(7){
+    grid-row: 1 / 5;
+    grid-column: 2 / 3;
+    align-self:start;
+  }
+
+}
+
+
+
+.notion-collection-list__item-property .notion-semantic-string {
+  white-space: normal !important;
+}
+[id*="writing"] .notion-collection-list__item-property .notion-property__select {
+  display: block !important;
+}
+
+.notion-collection-list__item-content{
+  display: block !important;
+  pointer-events: none !important;
+}
+
+@media screen and (min-width: 32em)  {
+  .notion-collection-list__item-content{
+    display: grid !important;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: auto;
+    column-gap: 100px;
+  }
+}
+
+
+/* Hides icon */
+/*.notion-property__title*/ .notion-property__title__icon-wrapper {
+  display: none !important; 
+}
+
+
+/* Show page title */
+.notion-collection-list__item .notion-property__title .notion-semantic-string {
+  /*display: none !important;*/
+  display: block !important;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.875rem !important;
+  font-feature-settings: "palt";
+  color: var(--color-text-default-light);
+  text-decoration: none !important;
+  border-bottom: none !important;
+  overflow: auto !important;
+  white-space: normal !important;
+}
+
+/* Resets font size of title */
+.notion-collection-list__item-property .notion-property__text .notion-semantic-string {
+  font-size: 1rem !important;
+  font-weight: Medium;
+  line-height: 1.0 !important;
+  color:var(--color-text-default-light);
+}
+
+/* Resets font size of date */
+.notion-collection-list__item-property .notion-property__date {
+  font-size: 1rem !important;
+}
+
+/* Resets spacing and padding on date */
+.notion-collection-list__item-property .notion-property__date .notion-semantic-string {
+  min-height: auto !important;
+  padding: 0 !important;
+}
+
+/* Set colour and size of date */
+.notion-collection-list__item-property .notion-property__date .notion-semantic-string .date {
+  color: var(--color-text-gray) !important;
+  font-size: 0.875rem !important;
+}
+
+/*/////////////// PROPERTY Typography ////////////////*/
+
+/* Styles for title = 47736b3f*/
+.notion-collection-list__item-property .property-47736b3f {
+  margin: 0.5em 0 1em !important;
+}
+.notion-collection-list__item-property .property-47736b3f .notion-semantic-string {
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.875rem !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.25 !important;
+  border-bottom: 1px solid transparent !important;
+  transition: border-color .2s ease-in;
+  font-feature-settings: "palt";
+}
+@media screen and (min-width: 32em) {
+  .notion-collection-list__item-property .property-47736b3f .notion-semantic-string {
+    font-size: 2.111rem !important;
+    line-height: 1.15 !important;
+  }
+}
+
+/* Styles for description */
+.notion-collection-list__item-property .property-7173695c {
+  margin: 0.5em 0 1em !important;
+}
+.notion-collection-list__item-property .property-7173695c .notion-semantic-string {
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8 rem !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.25 !important;
+  border-bottom: 1px solid transparent !important;
+  transition: border-color .2s ease-in;
+}
+
+@media screen and (min-width: 32em) {
+  .notion-collection-list__item-property .property-7173695c .notion-semantic-string {
+    font-size: 1.0rem !important;
+    line-height: 1.15 !important;
+  }
+}
+
+/* Uses Notion’s file property to display featured image for article */
+.notion-collection-list__item-property .notion-property__file a > div, .notion-collection-list__item-property .notion-property__file img {
+  width: 200px !important;
+  height: auto !important;
+  max-height: none !important;
+  margin-right: 0 !important;
+}
+.notion-collection-list__item-property .notion-property__file a > div > div, .notion-collection-list__item-property .notion-property__file img {
+  position: relative !important;
+}
+.notion-collection-list__item-property .notion-property__file img {
+  margin-top: 0.5em !important;
+  margin-bottom: 1.5em !important;
+}
+/* no link*/
+.notion-collection-list__item-property .notion-property__file a{
+  pointer-events:none;
+}
+
+/* --- Article page --- */
+
+/* Set width of body and center it */
+[id*="writing-"] .notion-page__properties, [id*="writing-"] .notion-text, [id*="writing-"] .notion-heading, [id*="writing-"] .notion-quote, [id*="writing-"] .notion-divider, [id*="writing-"] .notion-caption, [id*="writing-"] .notion-bulleted-list, [id*="writing-"] .notion-numbered-list {
+  width: 100%;
+  max-width: 660px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+[id*="writing-"] .notion-link, [id*="writing-"] .notion-column-list {
+  width: 100%;
+  max-width: 660px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+[id*="writing-"] .notion-page__properties {
+  margin-bottom: 16px !important;
+}
+@media screen and (min-width: 680px) {
+  [id*="writing-"] .notion-page__properties {
+    margin-bottom: 40px !important;
+  }
+}
+
+/* Style date */
+.notion-property__date .notion-semantic-string .date {
+  color: var(--color-text-gray) !important;
+  font-size: 1rem !important;
+}
+@media screen and (min-width: 32em) {
+.notion-property__date .notion-semantic-string .date {
+    font-size: 1rem !important;
+  }
+}
+
+/* Style Main title */
+.notion-page__property .property-47736b3f .notion-semantic-string{
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:2rem !important;
+  color:var(--color-text-default-light);
+  font-feature-settings: "palt";
+}
+
+/* Style english title*/
+.notion-page__properties .notion-property__text.property-4a686c7e .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 1.2rem !important;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--color-text-default-light);
+}
+
+/* Style description */
+.notion-page__properties .notion-property__text.property-7173695c .notion-semantic-string{
+  font-family: a-otf-gothic-bbb-pr6n, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem !important;
+  font-style: normal;
+  color: var(--color-text-default-light);
+}
+
+/* Style year */
+.notion-page__property .property-72463e7c .notion-semantic-string{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-gray);
+}
+/* Style author */
+.notion-page__property .property-38376638336136632d376336632d343262342d623261622d653166306331623130343034 .notion-semantic-string{
+  font-size:1rem !important;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem !important;
+  color: var(--color-text-gray);
+}
+
+
+/* Style of page title can be found with heading styles */
+/* Style body titles */
+[id*="writing-"] h2.notion-heading {
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.015em !important;
+  margin-top: 1.25em !important;
+  margin-bottom: 0.25em !important;
+  text-indent: -0.05em !important;
+}
+[id*="writing-"] h3.notion-heading {
+  margin-top: 1.75rem;
+}
+
+/* Style images */
+[id*="writing-"] .notion-image {
+  margin-bottom: 1.25em !important;
+}
+@media screen and (min-width: 32em) {
+  [id*="writing-"] .notion-image {
+    margin-bottom: 2em !important;
+  }
+}
+[id*="writing-"] .notion-image.normal {
+  width: 100% !important;
+  max-width: 660px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+[id*="writing-"] .notion-image.normal img {
+  margin: 0 auto 0.5em !important;
+}
+
+/* Center image caption (affects image captions across the site) */
+figcaption {
+  text-align: center !important;
+  padding: 6px 0 0 !important;
+  color: var(--color-text-gray) !important;
+}
+
+/* Fix border colour for captions that contain links */
+figcaption a {
+  opacity: 1 !important;
+  border-color: var(--color-text-gray) !important;
+}
+
+/* Control space between an image and heading */
+[id*="writing-"] .notion-image.page-width + h2.notion-heading {
+  margin-top: 1em !important;
+}
+
+/* Control space between body text and image */
+[id*="writing-"] .notion-text + .notion-image {
+  margin-top: 1.25em !important;
+}
+@media screen and (min-width: 32em) {
+  [id*="writing-"] .notion-text + .notion-image {
+    margin-top: 2em !important;
+  }
+}
+
+/* Style quotes */
+[id*="writing-"] .notion-quote {
+  margin-top: 1.25em !important;
+  margin-bottom: 1.25em !important;
+  padding-left: 1.5em !important;
+  border-left: 4px solid #c7cad2 !important;
+}
+
+/* Style lists */
+.notion-numbered-list, .notion-bulleted-list {
+  padding-left: 1.25em !important;
+  margin-bottom: 1em !important;
+}
+
+/* Style dividers to display as centered ellipsis */
+[id*="writing-"] .notion-divider {
+  border-bottom: none !important;
+  margin: 0 auto !important;
+  text-align: center;
+  font-size: 1.25rem;
+}
+[id*="writing-"] .notion-divider::before {
+  content:"· · ·";
+}
+
+/* --- MISC --- */
+
+/* Hide notion toggle - a hack to hide child pages, drag them into a toggle and they'll disappear */
+.notion-toggle {
+  display: none !important;
+}
+
+/* --- PAGE LOAD ANIMATION --- */
+body {
+  -webkit-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -moz-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -o-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  -ms-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* --- FOOTER --- */
+/* The footer makes use of the standard table view consider whether you’ll need this feature for other aspects of your site before implementing the footer in this way */
+
+/* Add dividing border */
+.notion-collection-table__wrapper {
+  border-top: 1px solid rgba(55,53,47,.09) !important;
+  padding-top: 1em !important;
+  margin-top: 3em;
+}
+/* Reset font size */
+.notion-collection-table {
+  font-size: 1rem !important;
+}
+/* Hide header row */
+.notion-collection-table th {
+  display: none !important;
+}
+/* Remove borders of cells */
+.notion-collection-table td {
+  border: 0 !important;
+  padding: 6px 0 !important;
+}
+/* Hide title column */
+.notion-collection-table__body .title {
+  display: none !important;
+}
+/* Reinstate usual styling of links */
+.notion-collection-table td .notion-semantic-string .link {
+  opacity: .7 !important;
+  transition: opacity .1s ease-in;
+}
+.notion-collection-table td .notion-semantic-string .link:hover {
+  opacity: 1 !important;
+}
+/* Don’t truncate content on small screens */
+.notion-collection-table__cell .notion-semantic-string {
+  white-space: normal !important;
+}
+
+.notion-collection-list__item-anchor{
+  z-index: 9996;
+  background-color: white;
+  opacity: 0;
+  display: block;
+}
+
+.notion-collection-list__item-anchor:hover{
+  opacity: 0.4;
+}
+
+
+/*hide web titles on notion navigation*/
+/*
+.notion-breadcrumb__item:nth-child(1){
+  display: none !important;
+}
+
+.notion-breadcrumb__item .has-icon:nth-child(1){
+  display: none !important;
+}
+*/
+.notion-breadcrumb__item{
+  display: none !important;
+}
+
+/*hide icons*/
+/*
+.notion-breadcrumb__item{
+  div:nth-child(-n+2){
+    display:none !important;
+  }
+}
+*/
+/*hide Create with AI on navigation*/
+.notion-navbar__title{
+  /*
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: 2.5rem !important;
+  */
+  display: none !important;
+}
+
+.notion-breadcrumb__divider{
+  display: none !important;
+}
+
+.notion-navbar>a.has-icon {
+    height:50px !important;
+}
+
+
+
+</style>
