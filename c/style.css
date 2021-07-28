@@ -756,10 +756,9 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   font-feature-settings: "palt";
   color: var(--color-text-default-light);
   text-decoration: none !important;
+  border-bottom: none !important;
   overflow: auto !important;
   white-space: normal !important;
-
-
 }
 
 /* Resets font size of title */
