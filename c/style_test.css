@@ -6,9 +6,9 @@ html {
 
 /* --- Change default colors --- */
 :root {
-  --color-bg-default: #000000 !important;
+  --color-bg-default: #ffffff !important;
   --color-text-default: hsl(0, 0%, 20%) !important;
-  --color-text-default-light: rgb(216, 204, 37) !important;
+  --color-text-default-light: rgb(0, 95, 250) !important;
   --color-text-gray: hsl(0, 0%, 20%) !important;
   --collection-card-cover-size-large: 210px !important;
 }
