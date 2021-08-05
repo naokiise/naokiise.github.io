@@ -1133,10 +1133,13 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif !important;
   font-weight: 600 !important;
   font-style: normal !important;
-  font-size: 2.5rem !important;
+  font-size: 2.0rem !important;
   line-height: 2 !important;
   overflow: visible !important;
-  
+  color: rgb(0, 95, 250) !important;
+  width:900px !important;
+  margin: auto !important;
+
   /*display: none !important;*/
 }
 
