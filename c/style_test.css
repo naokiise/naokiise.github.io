@@ -1116,6 +1116,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 .notion-breadcrumb__item{
   /*display: none !important;*/
+  pointer-events:none !important;
 }
 
 /*hide icons*/
