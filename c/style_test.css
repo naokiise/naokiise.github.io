@@ -1137,7 +1137,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-style: normal !important;
   font-size: 2.5rem !important;
   
-  display: none !important;
+  /*display: none !important;*/
 }
 
 .notion-breadcrumb__divider{
