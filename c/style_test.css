@@ -1167,7 +1167,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 .notion-collection-list__item .notion-property__title .notion-semantic-string>span{
-  border: none !important;
+  border-bottom: none !important;
 }
 
 
