@@ -1146,7 +1146,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   overflow: visible !important;
   color: rgb(0, 95, 250) !important;
   width:1000px !important;
-  height: auto;
+  height: 200px;
   margin: auto !important;
   background-color: white;
   display: block;
