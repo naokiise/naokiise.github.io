@@ -1148,6 +1148,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   width:900px !important;
   margin: auto !important;
   background-color: white;
+  display: block;
   /*display: none !important;*/
 }
 
