@@ -1123,6 +1123,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   display: none;
 }
 
+.notion-breadcrumb__item:not(.notion-navbar__title)
+{
+  display: none !important;
+}
 /*hide icons*/
 /*
 .notion-breadcrumb__item{
@@ -1143,7 +1147,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   color: rgb(0, 95, 250) !important;
   width:900px !important;
   margin: auto !important;
-
+  background-color: white;
   /*display: none !important;*/
 }
 
