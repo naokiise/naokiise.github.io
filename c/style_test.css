@@ -1119,7 +1119,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   pointer-events:none !important;
 }
 
-.notion-breadcrumb__item div:nth-child(1){
+.notion-breadcrumb__item div:nth-child(4){
   display: none;
 }
 
