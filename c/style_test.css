@@ -1145,11 +1145,13 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   line-height: 2 !important;
   overflow: visible !important;
   color: rgb(0, 95, 250) !important;
-  width:900px !important;
+  width:1000px !important;
   height: auto;
   margin: auto !important;
   background-color: white;
   display: block;
+  font-feature-settings: "palt";
+
   /*display: none !important;*/
 }
 
