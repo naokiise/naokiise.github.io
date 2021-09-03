@@ -1107,20 +1107,26 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 
-/*hide web titles on notion navigation*/
-/*
-.notion-breadcrumb__item:nth-child(1){
+/*web titles on notion navigation*/
+
+.notion-breadcrumb__item:nth-child(-n+3){
   display: none !important;
 }
 
-.notion-breadcrumb__item .has-icon:nth-child(1){
-  display: none !important;
-}
-*/
+
 .notion-breadcrumb__item{
-  display: none !important;
+  /*display: none !important;*/
+  pointer-events:none !important;
 }
 
+.notion-breadcrumb__item div:nth-child(4){
+  display: none;
+}
+
+.notion-breadcrumb__item div:not(.notion-navbar__title)
+{
+  display: none !important;
+}
 /*hide icons*/
 /*
 .notion-breadcrumb__item{
@@ -1129,15 +1135,27 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   }
 }
 */
+
 /*hide Create with AI on navigation*/
 .notion-navbar__title{
-  /*
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif !important;
   font-weight: 600 !important;
   font-style: normal !important;
-  font-size: 2.5rem !important;
-  */
-  display: none !important;
+  font-size: 2.0rem !important;
+  line-height: 2 !important;
+  overflow: visible !important;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  color: rgb(0, 95, 250) !important;
+  width:1000px !important;
+  height: 200px;
+  margin: auto !important;
+  background-color: white;
+  display: block;
+  font-feature-settings: "palt";
+
+  /*display: none !important;*/
 }
 
 .notion-breadcrumb__divider{
@@ -1148,6 +1166,9 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
     height:50px !important;
 }
 
+.notion-collection-list__item .notion-property__title .notion-semantic-string>span{
+  border-bottom: none !important;
+}
 
 
 </style>
