@@ -1170,5 +1170,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   border-bottom: none !important;
 }
 
+.notion-collection-list__item-property .property-3a79494
+{
+  z-index:900;
+}
+
 
 </style>
