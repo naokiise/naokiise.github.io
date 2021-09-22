@@ -759,6 +759,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   border-bottom: none !important;
   overflow: auto !important;
   white-space: normal !important;
+  z-index: 1;
 }
 
 /* Resets font size of title */
