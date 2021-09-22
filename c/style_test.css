@@ -759,6 +759,10 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   border-bottom: none !important;
   overflow: auto !important;
   white-space: normal !important;
+}
+
+.notion-collection-list__item .notion-property__title 
+{
   z-index: 1;
 }
 
