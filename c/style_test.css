@@ -1175,10 +1175,13 @@ a .notion-link .notion-collection-list__item-anchor{
   border-bottom: none !important;
 }
 
-.notion-collection-list__item-property .property-3a79494
+/*Tags */
+.notion-collection-list__item-property > .property-3a79494
 {
   z-index:900;
 }
+
+
 
 
 </style>
