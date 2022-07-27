@@ -541,7 +541,7 @@ h3.notion-heading {
 
 /* Adjust pill styling */
 .notion-pill {
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
   border-radius: 0px !important;
   line-height: 24px !important;
   margin: 2px 0 !important;
@@ -878,11 +878,11 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 /* Style date */
 .notion-property__date .notion-semantic-string .date {
   color: var(--color-text-gray) !important;
-  font-size: 1rem !important;
+  font-size: 0.75rem !important;
 }
 @media screen and (min-width: 32em) {
 .notion-property__date .notion-semantic-string .date {
-    font-size: 1rem !important;
+    font-size: 0.75rem !important;
   }
 }
 
@@ -1150,7 +1150,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 /* Gallery view*/
 .notion-collection-card .notion-property__title {
-  font-size:1.8rem !important;
+  font-size:1.2rem !important;
+  color:var(--color-text-default-light);
 }
+
+
 
 </style>
