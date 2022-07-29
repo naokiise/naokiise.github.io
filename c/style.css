@@ -1189,7 +1189,8 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 .notion-navbar__search{
   position:fixed !important;
   top:3rem !important; 
-  right:3rem !important;
+  right:2rem !important;
+  z-index: 9998;
 }
 
 notion-page__properties:first-child .notion-property .notion-semantic-string{
