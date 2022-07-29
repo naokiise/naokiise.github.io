@@ -1180,18 +1180,16 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-size:1.2rem !important;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.notion-collection-card .notion-property__title a:hover{
-=======
 .notion-collection-card .notion-property__title:hover{
->>>>>>> a50a6b3c621ffa62a9373f51d303a32e5c10ba51
-=======
-.notion-collection-card .notion-property__title:hover{
->>>>>>> a50a6b3c621ffa62a9373f51d303a32e5c10ba51
   font-size:1.2rem !important;
   color:var(--color-text-default-light);
 }
 
+/* Search form */
+notion-navbar__search{
+  position:fixed !important;
+  top:3rem; 
+  right:3rem;
+}
 
 </style>
