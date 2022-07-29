@@ -287,7 +287,7 @@ h3.notion-heading {
   padding: 25px 25px 100px 25px;
   display: flex;
   position: static;
-  z-index: 9999;
+  z-index: 9997;
   height: 100px;
   width: 100%;
   flex-direction: column;
@@ -1193,6 +1193,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   z-index: 9998;
 }
 
+/* Single page title*/
 notion-page__properties:first-child .notion-property .notion-semantic-string{
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
