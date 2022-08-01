@@ -1204,7 +1204,7 @@ notion-page__properties:first-child .notion-property .notion-semantic-string{
 }
 */
 
-.property-undefined{
+.property-undefined:nth-child(1){
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
   font-weight: 500 !important;
