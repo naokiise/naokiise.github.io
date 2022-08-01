@@ -1212,5 +1212,8 @@ notion-page__properties:first-child .notion-property .notion-semantic-string{
   color:var(--color-text-default-light) !important;
 }
 
+.notion-page__property-name:nth-child(-n+2){
+  display: none !important;
+}
 
 </style>
