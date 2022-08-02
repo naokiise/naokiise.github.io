@@ -1193,16 +1193,16 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 /* Single page title*/
-/*
-notion-page__properties:first-child .notion-property .notion-semantic-string{
+
+.notion-page__properties:first-child .notion-property .notion-semantic-string{
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
   font-weight: 500 !important;
   font-size: 1.875rem !important;
   color:var(--color-text-default-light) !important;
 }
-*/
 
+/*
 .property-undefined:nth-child(1) .notion-semantic-string{
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
@@ -1210,7 +1210,7 @@ notion-page__properties:first-child .notion-property .notion-semantic-string{
   font-size: 1.875rem !important;
   color:var(--color-text-default-light) !important;
 }
-
+*/
 .notion-page__property-name:nth-child(-n+2){
   display: none !important;
 }
