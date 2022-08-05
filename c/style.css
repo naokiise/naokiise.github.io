@@ -1184,8 +1184,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   color:var(--color-text-default-light);
 }
-
-.notion-collection-card .notion-collection-card__property-list
+/* sub title*/
+.notion-collection-card .notion-collection-card__property-list .notion-collection-card__property:first-child{
+  font-size:1rem;
+}
 
 .gallery:hover{
   /*color:var(--color-text-default-light);*/
