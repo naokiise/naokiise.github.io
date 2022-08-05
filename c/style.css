@@ -26,12 +26,13 @@ a:hover
 /* --- TYPOGRAPHY --- */
 
 /* Increase base font size for large screens */
+/*
 @media screen and (min-width: 50em) {
   html {
     font-size: 18px !important;
   }
 }
-
+*/
 body {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 400;
