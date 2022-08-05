@@ -1208,7 +1208,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 }
 
 /*Sub title*/
-.notion-page__property:nth-child(2).notion-property .notion-semantic-string{
+.notion-page__property:nth-child(2) .notion-property .notion-semantic-string{
   font-size: 1.4rem !important;
 }
 
