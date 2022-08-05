@@ -1196,7 +1196,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 
 /* Single page title*/
 .notion-page__property:first-child .notion-property .notion-semantic-string{
-  font-family: aktiv-grotesk,sans-serif;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-style: normal;
   font-weight: 500 !important;
   font-size: 1.875rem !important;
@@ -1217,6 +1217,10 @@ Delete propety name
 */
 .notion-page__property-name:nth-child(-n+2){
   display: none !important;
+}
+
+.notion-collection-gallery {
+  grid-auto-rows: 0 !important;
 }
 
 </style>
