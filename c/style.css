@@ -1217,7 +1217,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 /*
 Delete propety name
 */
-.notion-page__property-name:nth-child(-n+2){
+.notion-page__property:nth-child(-n+2) .notion-page__property-name{
   display: none !important;
 }
 /*
