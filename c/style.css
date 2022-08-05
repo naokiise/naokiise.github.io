@@ -915,6 +915,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
   }
 }
 */
+
 /* Style Main title */
 .notion-page__property .property-47736b3f .notion-semantic-string{
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
@@ -1205,6 +1206,12 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-size: 1.875rem !important;
   color:var(--color-text-default-light) !important;
 }
+
+/*Sub title*/
+.notion-page__property:nth-child(2).notion-property .notion-semantic-string{
+  font-size: 1.4rem !important;
+}
+
 
 /*
 .property-undefined:nth-child(1) .notion-semantic-string{
