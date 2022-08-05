@@ -569,7 +569,7 @@ h3.notion-heading {
 
 /* Adjust pill styling */
 .notion-pill {
-  font-size: 0.75rem !important;
+  /*font-size: 0.75rem !important;*/
   border-radius: 0px !important;
   line-height: 24px !important;
   margin: 2px 0 !important;
@@ -904,6 +904,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
 }
 
 /* Style date */
+/*
 .notion-property__date .notion-semantic-string .date {
   color: var(--color-text-gray) !important;
   font-size: 0.75rem !important;
@@ -913,7 +914,7 @@ Article view: [id*="writing-"] becomes [id*="journal-"]
     font-size: 0.75rem !important;
   }
 }
-
+*/
 /* Style Main title */
 .notion-page__property .property-47736b3f .notion-semantic-string{
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
