@@ -1179,6 +1179,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 /* Gallery view*/
 .notion-collection-card .notion-property__title {
   font-size:1.2rem !important;
+  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
 }
 
 .gallery:hover{
@@ -1218,9 +1219,9 @@ Delete propety name
 .notion-page__property-name:nth-child(-n+2){
   display: none !important;
 }
-
+/*
 .notion-collection-gallery {
   grid-auto-rows: 0 !important;
 }
-
+*/
 </style>
