@@ -1189,6 +1189,10 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-size:1rem;
 }
 
+/*date*/
+
+
+
 .gallery:hover{
   /*color:var(--color-text-default-light);*/
   background-color:hsl(0, 0%, 80%);
