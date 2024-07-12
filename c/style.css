@@ -225,6 +225,15 @@ strong {
 /* --- Heading styles --- */
 
 /* H1 */
+.notion-page__properties .notion-property:first-of-type
+{
+  font-family: aktiv-grotesk,sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 1.875rem !important;
+  color:var(--color-text-default-light) !important;
+}
+/*
 .notion-page__properties:first-child{
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
@@ -232,6 +241,7 @@ strong {
   font-size: 1.875rem !important;
   color:var(--color-text-default-light) !important;
 }
+*/
 h1.notion-heading/*, .notion-page__properties .notion-property__text*/ {
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
