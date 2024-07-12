@@ -225,7 +225,7 @@ strong {
 /* --- Heading styles --- */
 
 /* H1 */
-.notion-property notion-property__text property-undefined notion-semantic-string {
+.notion-page__properties:first-child{
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
   font-weight: 500 !important;
