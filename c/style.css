@@ -225,7 +225,7 @@ strong {
 /* --- Heading styles --- */
 
 /* H1 */
-.notion-page__properties .notion-property:first-child 
+.notion-page__properties .notion-page__property:first-child .notion-property
 {
   font-family: aktiv-grotesk,sans-serif;
   font-style: normal;
