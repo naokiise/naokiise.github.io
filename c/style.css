@@ -296,9 +296,10 @@ h3.notion-heading {
 
 /* Hide the Notion nav bar */
 .notion-navbar {
-  /*display: none !important;*/
+  display: none !important;
+  /*
   display: block !important;
-  padding-top: 200px !important;
+  padding-top: 200px !important;*/
 }
 
 /* Custom nav styling (see HTML at bottom of code) */
