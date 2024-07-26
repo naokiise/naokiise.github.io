@@ -85,7 +85,7 @@ strong {
   display: block;
   float: left;
   padding: 10px 20px;
-  z-index: 9999 !important;
+  z-index: 9997 !important;
   position: fixed;
   height:200px;
   background:#FFF;
