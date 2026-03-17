@@ -85,8 +85,10 @@ strong {
   display: block;
   float: left;
   padding: 10px 20px;
-  z-index: 9999;
+  z-index: 9999 !important;
   position: fixed;
+  height:200px;
+  background:#FFF;
 }
 
 /* menu */
@@ -285,8 +287,9 @@ h3.notion-heading {
 /* Hide the Notion nav bar */
 .notion-navbar {
   /*display: none !important;*/
+  
   display: block !important;
-  padding-top: 200px !important;
+  padding-top: 200px !important;*/
 }
 
 /* Custom nav styling (see HTML at bottom of code) */
@@ -1223,7 +1226,7 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-style: normal;
   font-weight: 500 !important;
-  font-size: 1.875rem !important;
+  font-size: 30px !important;
   color:var(--color-text-default-light) !important;
 }
 
